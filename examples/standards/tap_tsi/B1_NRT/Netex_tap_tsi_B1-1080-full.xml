@@ -44,6 +44,9 @@ This example provides an example of encodeing TAP TSI  NRT  fares in NeTEx XML
 						</Codespace>
 					</codespaces>
 					<!-- TCVC 1080 Carriers  : NeTex Operators -->
+					<typesOfValue>
+						<TypeOfNotice id="TCVM" version="any"/>
+					</typesOfValue>
 					<organisations>
 						<Operator id="uic:1080" version="01">
 							<ValidBetween>
