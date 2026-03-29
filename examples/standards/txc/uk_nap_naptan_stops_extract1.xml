@@ -647,12 +647,6 @@ The NaPTAN StopClassification and StopType can be used to determine how each typ
 						<DefaultDataSourceRef ref="napt:dft" version="napt:v2.4"/>
 						<DefaultResponsibilitySetRef ref="napt:NaPTAN_metadata" version="napt:v2.4"/>
 					</FrameDefaults>
-					<versions>
-						<Version id="napt:v2.4" version="any">
-							<Description>NaPTAN  version 2.4</Description>
-							<VersionType>baseline</VersionType>
-						</Version>
-					</versions>
 					<dataSources>
 						<DataSource id="napt:dft" version="napt:v2.4">
 							<Email>standards@naptan.org.uk</Email>
@@ -665,7 +659,7 @@ The NaPTAN StopClassification and StopType can be used to determine how each typ
 							<roles>
 								<ResponsibilityRoleAssignment version="napt:v2.4" id="napt:NaPTAN_metadata">
 									<DataRoleType>creates distributes</DataRoleType>
-									<StakeholderRoleType>DataRegistrar</StakeholderRoleType>
+									<StakeholderRoleType>dataRegistrar</StakeholderRoleType>
 									<ResponsibleOrganisationRef ref="nptg:DfT" version="nptg:v2.1"/>
 									<ResponsibleAreaRef ref="nptgUkRegion:GB" nameOfRefClass="TransportAdministrativeZone" versionRef="0" xsi:type="TransportAdministrativeZoneRefStructure">UK</ResponsibleAreaRef>
 								</ResponsibilityRoleAssignment>
@@ -676,7 +670,7 @@ The NaPTAN StopClassification and StopType can be used to determine how each typ
 							<roles>
 								<ResponsibilityRoleAssignment version="napt:v2.4" id="napt:naptan_data">
 									<DataRoleType>creates distributes</DataRoleType>
-									<StakeholderRoleType>Other</StakeholderRoleType>
+									<StakeholderRoleType>other</StakeholderRoleType>
 									<ResponsibleOrganisationRef ref="nptg:DfT" version="nptg:v2.1"/>
 									<ResponsibleAreaRef ref="nptgUkRegion:GB" nameOfRefClass="TransportAdministrativeZone" versionRef="0" xsi:type="TransportAdministrativeZoneRefStructure">UK</ResponsibleAreaRef>
 								</ResponsibilityRoleAssignment>
@@ -1167,7 +1161,7 @@ The NaPTAN StopClassification and StopType can be used to determine how each typ
 												</ClassRelationshipInFrame>
 											</relationships>
 										</ClassInFrame>
-										<ClassInFrame nameOfClass="StopAssignment">
+										<ClassInFrame nameOfClass="PassengerStopAssignment">
 											<!-- 	 NeTex StopAssignment  maps from a NaPTan StopPoint
  		-->
 											<Mandatory>optional</Mandatory>
@@ -1365,12 +1359,6 @@ The NaPTAN StopClassification and StopType can be used to determine how each typ
 						<DefaultDataSourceRef ref="nptg:dft" version="nptg:v2.1"/>
 						<DefaultResponsibilitySetRef ref="nptg:NPTG_metadata" version="nptg:v2.1"/>
 					</FrameDefaults>
-					<versions>
-						<Version id="nptg:v2.1" version="any">
-							<Description>NPTG version 2.1</Description>
-							<VersionType>baseline</VersionType>
-						</Version>
-					</versions>
 					<dataSources>
 						<DataSource id="nptg:dft" version="nptg:v2.1">
 							<Email>standards@nptg.org.uk</Email>
@@ -1383,7 +1371,7 @@ The NaPTAN StopClassification and StopType can be used to determine how each typ
 							<roles>
 								<ResponsibilityRoleAssignment version="nptg:v2.1" id="nptg:NPTG_metadata">
 									<DataRoleType>creates distributes</DataRoleType>
-									<StakeholderRoleType>DataRegistrar</StakeholderRoleType>
+									<StakeholderRoleType>dataRegistrar</StakeholderRoleType>
 									<ResponsibleOrganisationRef ref="nptg:DfT" version="nptg:v2.1"/>
 									<ResponsibleAreaRef ref="nptgUkRegion:GB" nameOfRefClass="TransportAdministrativeZone" versionRef="0" xsi:type="TransportAdministrativeZoneRefStructure">UK</ResponsibleAreaRef>
 								</ResponsibilityRoleAssignment>
@@ -1394,7 +1382,7 @@ The NaPTAN StopClassification and StopType can be used to determine how each typ
 							<roles>
 								<ResponsibilityRoleAssignment version="nptg:v2.1" id="nptg:data">
 									<DataRoleType>creates distributes</DataRoleType>
-									<StakeholderRoleType>EntityLegalOwnership</StakeholderRoleType>
+									<StakeholderRoleType>entityLegalOwnership</StakeholderRoleType>
 									<ResponsibleOrganisationRef ref="nptg:DfT" version="nptg:v2.1"/>
 									<ResponsibleAreaRef ref="nptg:UK">TODO</ResponsibleAreaRef>
 								</ResponsibilityRoleAssignment>
@@ -1418,7 +1406,7 @@ The NaPTAN StopClassification and StopType can be used to determine how each typ
 								</TypeOfFrame>
 								<TypeOfFrame version="nptg:v2.1" id="nptg:UK_NPTG_profile_payload">
 									<Name>NPTG Locations and  Tariff Zones Frame</Name>
-									<FrameClassRef nameOfClass="SiteeFrame"/>
+									<FrameClassRef nameOfClass="SiteFrame"/>
 									<classes>
 										<ClassInFrame nameOfClass="TopographicPlace">
 											<!-- 	 TopographicPlace maps to  a NPTG Locality 
@@ -1557,7 +1545,7 @@ The NaPTAN StopClassification and StopType can be used to determine how each typ
 												</ClassRelationshipInFrame>
 												<ClassRelationshipInFrame name="alternativeDescriptors">
 													<!--  NB Only coccasionally  actually populated in current data set -->
-													<RelationshipRef nameOfClass="TopographicPlaceDescriptior"/>
+													<RelationshipRef nameOfClass="TopographicPlaceDescriptor"/>
 													<!--   NptgLocality.alternativeDeiscriptors.Descriptor -->
 													<Mandatory>optional</Mandatory>
 													<Containment>byVersionedReference</Containment>
@@ -1578,7 +1566,7 @@ The NaPTAN StopClassification and StopType can be used to determine how each typ
 												</ClassRelationshipInFrame>
 											</relationships>
 										</ClassInFrame>
-										<ClassInFrame nameOfClass="TopographicDescriptor">
+										<ClassInFrame nameOfClass="TopographicPlaceDescriptor">
 											<!-- 	 TopographicPlace maps to  a NPTG Locality. 		lternativeDescriptors.Descrip  -->
 											<Mandatory>required</Mandatory>
 											<attributes>
@@ -1684,13 +1672,13 @@ The NaPTAN StopClassification and StopType can be used to determine how each typ
 												</ClassRelationshipInFrame>
 												<ClassRelationshipInFrame name="projection">
 													<!--  NptgPlusBusZone.Mapping  ..  <Location><Easting>  .. <Northing>  -->
-													<RelationshipRef nameOfClass="Polygon"/>
+													<RelationshipRef nameOfClass="gml:Polygon"/>
 													<Mandatory>required</Mandatory>
 													<Containment>inline</Containment>
 												</ClassRelationshipInFrame>
 											</relationships>
 										</ClassInFrame>
-										<ClassInFrame nameOfClass="Polygon">
+										<ClassInFrame nameOfClass="gml:Polygon">
 											<!-- 	 gml:Polygon  maps to  a NPTG PlusBusZone.Mapping  -->
 											<Mandatory>required</Mandatory>
 											<attributes>

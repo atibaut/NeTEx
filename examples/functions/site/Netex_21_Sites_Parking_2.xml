@@ -161,7 +161,7 @@ v1.1 revised ids and corrections
 					<AccessibilityAssessment version="any" id="mypark:PP01">
 						<MobilityImpairedAccess>partial</MobilityImpairedAccess>
 						<limitations>
-							<AccessibilityLimitation>
+							<AccessibilityLimitation id="mypark:PP01" version="any">
 								<WheelchairAccess>true</WheelchairAccess>
 								<StepFreeAccess>true</StepFreeAccess>
 								<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -193,12 +193,15 @@ v1.1 revised ids and corrections
 					<levels>
 						<Level version="any" id="mypark:PP01@Level@01">
 							<Name>Street Level</Name>
+							<RelativeLevelOrder>0</RelativeLevelOrder>
 						</Level>
 						<Level version="any" id="mypark:PP01@Level@02">
 							<Name>Level 1</Name>
+							<RelativeLevelOrder>1</RelativeLevelOrder>
 						</Level>
 						<Level version="any" id="mypark:PP01@Level@03">
 							<Name>Level 3 (Walkway to STore)</Name>
+							<RelativeLevelOrder>3</RelativeLevelOrder>
 						</Level>
 					</levels>
 					<entrances>
@@ -539,7 +542,7 @@ v1.1 revised ids and corrections
 								</spaces>
 							</ParkingProperties>
 							<entrances>
-								<ParkingEntranceRef version="any" ref="mypark:PP01@EP01"/>
+								<ParkingPassengerEntranceRef version="any" ref="mypark:PP01@EP01"/>
 								<ParkingEntranceForVehiclesRef version="any" ref="mypark:PP01@EV11@Entrance"/>
 								<ParkingEntranceForVehiclesRef version="any" ref="mypark:PP01@EV12@Exit"/>
 								<ParkingEntranceForVehiclesRef version="any" ref="mypark:PP01@EV01+02"/>
@@ -606,7 +609,7 @@ v1.1 revised ids and corrections
 								</spaces>
 							</ParkingProperties>
 							<entrances>
-								<ParkingEntranceRef version="any" ref="mypark:PP01@EP02 "/>
+								<ParkingPassengerEntranceRef version="any" ref="mypark:PP01@EP02"/>
 								<ParkingEntranceForVehiclesRef version="any" ref="mypark:PP01@EV02+03"/>
 								<ParkingEntranceForVehiclesRef version="any" ref="mypark:PP01@EV03+02"/>
 							</entrances>

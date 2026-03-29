@@ -904,7 +904,7 @@ Prices in FARE FRAME
 							<roles>
 								<ResponsibilityRoleAssignment version="1.0" id="frst:tariff_data@creates">
 									<DataRoleType>creates</DataRoleType>
-									<StakeholderRoleType>FareManagement</StakeholderRoleType>
+									<StakeholderRoleType>fareManagement</StakeholderRoleType>
 									<ResponsibleOrganisationRef ref="noc:FYOR" version="1.0"/>
 								</ResponsibilityRoleAssignment>
 							</roles>
@@ -914,7 +914,7 @@ Prices in FARE FRAME
 							<roles>
 								<ResponsibilityRoleAssignment version="1.0" id="frst:network_data@creates">
 									<DataRoleType>creates</DataRoleType>
-									<StakeholderRoleType>Planning</StakeholderRoleType>
+									<StakeholderRoleType>planning</StakeholderRoleType>
 									<ResponsibleOrganisationRef ref="noc:FYOR" version="1.0"/>
 								</ResponsibilityRoleAssignment>
 							</roles>
@@ -952,8 +952,10 @@ Prices in FARE FRAME
 					<organisations>
 						<!--==== Operators ==== -->
 						<Operator version="1.0" id="noc:FYOR">
+							<privateCodes>
+								<PrivateCode type="nocn">nocn:136365</PrivateCode>
+							</privateCodes>
 							<PublicCode>FYOR</PublicCode>
-							<PrivateCode type="nocn">nocn:136365</PrivateCode>
 							<Name>First York Limited</Name>
 							<ShortName>First</ShortName>
 							<TradingName>First York</TradingName>
@@ -1014,7 +1016,7 @@ Prices in FARE FRAME
 							<roles>
 								<ResponsibilityRoleAssignment version="fxc:v1.0" id="fxc:FXC_metadata:DfT">
 									<DataRoleType>creates distributes</DataRoleType>
-									<StakeholderRoleType>DataRegistrar</StakeholderRoleType>
+									<StakeholderRoleType>dataRegistrar</StakeholderRoleType>
 									<ResponsibleOrganisationRef ref="nptg:DfT" versionRef="nptg:v2.1"/>
 									<ResponsibleAreaRef ref="nptgUkRegion:GB" versionRef="nptg:v2.1"/>
 								</ResponsibilityRoleAssignment>
@@ -1140,13 +1142,17 @@ Prices in FARE FRAME
 					<PricingParameterSet id="fxc:Common_Resources" version="fxc:v1.0">
 						<priceUnits>
 							<PriceUnit id="fxc:GBP" version="fxc:v1.0">
+								<privateCodes>
+									<PrivateCode>£</PrivateCode>
+								</privateCodes>
 								<Name>Pound Sterling</Name>
-								<PrivateCode>£</PrivateCode>
 								<Precision>2</Precision>
 							</PriceUnit>
 							<PriceUnit id="fxc:EUR" version="fxc:v1.0">
+								<privateCodes>
+									<PrivateCode>€</PrivateCode>
+								</privateCodes>
 								<Name>Euro</Name>
-								<PrivateCode>€</PrivateCode>
 								<Precision>2</Precision>
 							</PriceUnit>
 						</priceUnits>
@@ -1448,15 +1454,6 @@ Prices in FARE FRAME
 						<DefaultSystemOfUnits>SiKilometresAndMetres</DefaultSystemOfUnits>
 						<DefaultCurrency>GBP</DefaultCurrency>
 					</FrameDefaults>
-					<versions>
-						<Version id="fxc:v1.0" version="any">
-							<ValidBetween>
-								<FromDate>2019-01-01T01:01:01Z</FromDate>
-							</ValidBetween>
-							<Description>FXC version 2.1</Description>
-							<VersionType>baseline</VersionType>
-						</Version>
-					</versions>
 					<typesOfValue>
 						<!-- ======== Code sets ========= -->
 						<ValueSet version="fxc:v1.0" id="fxc:PointsOfInterest_Classifications" classOfValues="PointOfInterestClassification">

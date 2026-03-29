@@ -55,12 +55,6 @@
 							<Description>Stage coach TXC  data </Description>
 						</Codespace>
 					</codespaces>
-					<versions>
-						<Version id="op:1,0" version="any">
-							<Description>Version 1 of timetable</Description>
-							<VersionType>baseline</VersionType>
-						</Version>
-					</versions>
 					<dataSources>
 						<DataSource id="op:Transdev" version="op:1.0">
 							<Email>data@http://www.transdevireland.ie/</Email>
@@ -73,7 +67,7 @@
 							<roles>
 								<ResponsibilityRoleAssignment version="op:1.04" id="op:Operator_stop_data">
 									<DataRoleType>creates distributes</DataRoleType>
-									<StakeholderRoleType>Other</StakeholderRoleType>
+									<StakeholderRoleType>other</StakeholderRoleType>
 									<ResponsibleOrganisationRef ref="noc:01" version="any"/>
 								</ResponsibilityRoleAssignment>
 							</roles>

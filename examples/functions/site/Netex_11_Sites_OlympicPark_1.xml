@@ -149,7 +149,10 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 		A COMPOSITE FRAME is used to group the other frames as a single version
  
  
-(C) CEN Copyright 2010
+(C) CEN Copyright 2010, 2023
+
+Updated to give exampel of group of SItes
+
 -->
 <PublicationDelivery xmlns="http://www.netex.org.uk/netex" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:siri="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xsi:schemaLocation="http://www.netex.org.uk/netex ../../../xsd/NeTEx_publication.xsd">
 	<PublicationTimestamp>2001-12-17T09:30:47.0Z</PublicationTimestamp>
@@ -299,53 +302,53 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 						</Timeband>
 					</timebands>
 					<dayTypeAssignments>
-						<DayTypeAssignment version="any" order="1" id="oda:DTA_2012-07-27">
+						<DayTypeAssignment version="any" id="oda:DTA_2012-07-27-1">
 							<Description>Friday 2012-07-27 Opening</Description>
 							<Date>2012-07-27</Date>
 							<DayTypeRef version="any" ref="oda:DT01_Very_Busy"/>
 						</DayTypeAssignment>
-						<DayTypeAssignment version="any" order="1" id="oda:DTA_2012-07-28">
+						<DayTypeAssignment version="any" id="oda:DTA_2012-07-28-1">
 							<Description>Saturday 2012-07-28</Description>
 							<Date>2012-07-28</Date>
 							<DayTypeRef version="any" ref="oda:DT01_Very_Busy"/>
 						</DayTypeAssignment>
-						<DayTypeAssignment version="any" order="1" id="oda:DTA_2012-07-29">
+						<DayTypeAssignment version="any" id="oda:DTA_2012-07-29-1">
 							<Description>Sunday 2012-07-29</Description>
 							<Date>2012-07-29</Date>
 							<DayTypeRef version="any" ref="oda:DT01_Very_Busy"/>
 						</DayTypeAssignment>
 						<!-- Week 2 -->
-						<DayTypeAssignment version="any" order="1" id="oda:DTA_2012-07-30">
+						<DayTypeAssignment version="any" id="oda:DTA_2012-07-30-1">
 							<Description>Monday 2012-07-30</Description>
 							<Date>2012-07-30</Date>
 							<DayTypeRef version="any" ref="oda:DT02_Busy"/>
 						</DayTypeAssignment>
-						<DayTypeAssignment version="any" order="1" id="oda:DTA_2012-07-31">
+						<DayTypeAssignment version="any" id="oda:DTA_2012-07-31-1">
 							<Description>Tuesday 2012-07-31</Description>
 							<Date>2012-07-31</Date>
 							<DayTypeRef version="any" ref="oda:DT03_Normal"/>
 						</DayTypeAssignment>
-						<DayTypeAssignment version="any" order="1" id="oda:DTA_2012-08-01">
+						<DayTypeAssignment version="any" id="oda:DTA_2012-08-01-1">
 							<Description>Wednesday 2012-08-01</Description>
 							<Date>2012-08-01</Date>
 							<DayTypeRef version="any" ref="oda:DT03_Normal"/>
 						</DayTypeAssignment>
-						<DayTypeAssignment version="any" order="1" id="oda:DTA_2012-08-02">
+						<DayTypeAssignment version="any" id="oda:DTA_2012-08-02-1">
 							<Description>Thusday 2012-08-02</Description>
 							<Date>2012-08-02</Date>
 							<DayTypeRef version="any" ref="oda:DT02_Busy"/>
 						</DayTypeAssignment>
-						<DayTypeAssignment version="any" order="1" id="oda:DTA_2012-08-03">
+						<DayTypeAssignment version="any" id="oda:DTA_2012-08-03-1">
 							<Description>Friday 2012-08-03</Description>
 							<Date>2012-08-03</Date>
 							<DayTypeRef version="any" ref="oda:DT02_Busy"/>
 						</DayTypeAssignment>
-						<DayTypeAssignment version="any" order="1" id="oda:DTA_2012-08-04">
+						<DayTypeAssignment version="any" id="oda:DTA_2012-08-04-1">
 							<Description>Saturday2012-08-04</Description>
 							<Date>2012-08-04</Date>
 							<DayTypeRef version="any" ref="oda:DT02_Busy"/>
 						</DayTypeAssignment>
-						<DayTypeAssignment version="any" order="1" id="oda:DTA_2012-08-05">
+						<DayTypeAssignment version="any" id="oda:DTA_2012-08-05-1">
 							<Description>Sunday 2012-08-05</Description>
 							<Date>2012-08-05</Date>
 							<DayTypeRef version="any" ref="oda:DT02_Busy"/>
@@ -496,6 +499,28 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 							<CountryRef ref="gb">ENG</CountryRef>
 						</TopographicPlace>
 					</topographicPlaces>
+					<groupsOfSites>
+						<GroupOfSites version="any" id="Olympic_park">
+							<Name>Sites in Olympic Park</Name>
+							<members>
+								<StopPlaceRef version="any" ref="naptStop:910GSTRFD"/>
+								<StopPlaceRef version="any" ref="naptStop:940GZZLUSTD"/>
+								<StopPlaceRef version="any" ref="naptStop:940GZZCRSTD"/>
+								<StopPlaceRef version="any" ref="naptStop:940GZZLUWHM"/>
+								<PointOfInterestRef version="any" ref="naptPoi:8100OPK_V1_STDM"/>
+								<PointOfInterestRef version="any" ref="naptPoi:8100OPK_V2_HOCK"/>
+								<PointOfInterestRef version="any" ref="naptPoi:8100OPK_V3_HAND"/>
+								<PointOfInterestRef version="any" ref="naptPoi:8100OPK_V4_AQUA"/>
+								<PointOfInterestRef version="any" ref="naptPoi:8100OPK_V5_WPOL"/>
+								<PointOfInterestRef version="any" ref="naptPoi:8100OPK_V6_BKTB"/>
+								<PointOfInterestRef version="any" ref="naptPoi:8100OPK_V7_VELO"/>
+								<PointOfInterestRef version="any" ref="naptPoi:8100OPK_V8_BMXT"/>
+								<PointOfInterestRef version="any" ref="naptPoi:8100OPK_V9_EMAN"/>
+								<PointOfInterestRef version="any" ref="naptPoi:8100OPK_V10_PRSC"/>
+								<PointOfInterestRef version="any" ref="naptPoi:8100OPK_V11_WARM"/>
+							</members>
+						</GroupOfSites>
+					</groupsOfSites>
 					<!--- ==== Gateway Stations === -->
 					<stopPlaces>
 						<!-- ========== Rail========= -->
@@ -513,7 +538,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 							<AccessibilityAssessment version="any" id="naptStop:910GSTRFD">
 								<MobilityImpairedAccess>true</MobilityImpairedAccess>
 								<limitations>
-									<AccessibilityLimitation created="2010-05-17T09:30:47Z" modification="new" dataSourceRef="XtraAccessibilityData" changed="2010-05-17T09:30:47Z">
+									<AccessibilityLimitation created="2010-05-17T09:30:47Z" modification="new" dataSourceRef="XtraAccessibilityData" changed="2010-05-17T09:30:47Z" id="naptStop:910GSTRFD" version="any">
 										<WheelchairAccess>true</WheelchairAccess>
 										<StepFreeAccess>true</StepFreeAccess>
 										<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -552,7 +577,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" dataSourceRef="XtraAccessibilityData" id="naptStop:910GSTRFD_to_8100OPK-E1-acc_01">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptStop:910GSTRFD_to_8100OPK-E1-acc_01" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -581,7 +606,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" dataSourceRef="ukds:XtraAccessibilityData" id="tbd:8100OPK-E1_to_910GSTRFD-acc_01">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="tbd:8100OPK-E1_to_910GSTRFD-acc_01" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -618,7 +643,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 							<AccessibilityAssessment version="any" id="naptStop:940GZZLUSTD">
 								<MobilityImpairedAccess>true</MobilityImpairedAccess>
 								<limitations>
-									<AccessibilityLimitation created="2010-05-17T09:30:47Z" modification="new" dataSourceRef="XtraAccessibilityData" changed="2010-05-17T09:30:47Z">
+									<AccessibilityLimitation created="2010-05-17T09:30:47Z" modification="new" dataSourceRef="XtraAccessibilityData" changed="2010-05-17T09:30:47Z" id="naptStop:940GZZLUSTD" version="any">
 										<WheelchairAccess>true</WheelchairAccess>
 										<StepFreeAccess>true</StepFreeAccess>
 										<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -649,7 +674,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" dataSourceRef="XtraAccessibilityData" id="naptStop:940GZZLUSTD_to_8100OPK-E1-acc_01">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptStop:940GZZLUSTD_to_8100OPK-E1-acc_01" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -678,7 +703,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" dataSourceRef="XtraAccessibilityData" id="tbd:8100OPK-E1_to_GZZLUSTD_ac1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="tbd:8100OPK-E1_to_GZZLUSTD_ac1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -701,9 +726,11 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 						<StopPlace version="any" created="2006-09-11T15:42:00" modification="revise" changed="2009-02-26T15:47:00" responsibilitySetRef="napt:RS_147" id="naptStop:940GZZCRSTD">
 							<!-- 		<StopAreaCode>940GZZLUWIM</StopAreaCode>   /> -->
 							<!-- 	<AdministrativeAreaRef> -->
+							<privateCodes>
+								<PrivateCode>20026</PrivateCode>
+							</privateCodes>
 							<Name>Stratford DLRStation </Name>
 							<ShortName>Stratford DLR</ShortName>
-							<PrivateCode>20026</PrivateCode>
 							<types>
 								<TypeOfZoneRef version="any" ref="napt:type_of_zone@GTMU"/>
 							</types>
@@ -716,7 +743,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 							<AccessibilityAssessment version="any" id="naptStop:940GZZCRSTD">
 								<MobilityImpairedAccess>true</MobilityImpairedAccess>
 								<limitations>
-									<AccessibilityLimitation created="2010-05-17T09:30:47Z" modification="new" dataSourceRef="XtraAccessibilityData" changed="2010-05-17T09:30:47Z">
+									<AccessibilityLimitation created="2010-05-17T09:30:47Z" modification="new" dataSourceRef="XtraAccessibilityData" changed="2010-05-17T09:30:47Z" id="naptStop:940GZZCRSTD" version="any">
 										<WheelchairAccess>true</WheelchairAccess>
 										<StepFreeAccess>true</StepFreeAccess>
 										<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -747,7 +774,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" dataSourceRef="XtraAccessibilityData" id="naptStop:940GZZCRSTD_to_8100OPK-E1-acc_01">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptStop:940GZZCRSTD_to_8100OPK-E1-acc_01" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -776,7 +803,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" dataSourceRef="XtraAccessibilityData" id="tbd:8100OPK-E1_to_940GZZCRSTD-acc_01">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="tbd:8100OPK-E1_to_940GZZCRSTD-acc_01" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -813,7 +840,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 							<AccessibilityAssessment version="any" id="naptStop:940GZZLUWHM">
 								<MobilityImpairedAccess>true</MobilityImpairedAccess>
 								<limitations>
-									<AccessibilityLimitation created="2010-05-17T09:30:47Z" modification="new" dataSourceRef="XtraAccessibilityData" changed="2010-05-17T09:30:47Z">
+									<AccessibilityLimitation created="2010-05-17T09:30:47Z" modification="new" dataSourceRef="XtraAccessibilityData" changed="2010-05-17T09:30:47Z" id="naptStop:940GZZLUWHM" version="any">
 										<WheelchairAccess>true</WheelchairAccess>
 										<StepFreeAccess>true</StepFreeAccess>
 										<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -849,7 +876,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" dataSourceRef="XtraAccessibilityData" id="naptStop:940GZZLUWHM_to_8100OPK-E1-acc_01">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptStop:940GZZLUWHM_to_8100OPK-E1-acc_01" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -878,7 +905,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" dataSourceRef="XtraAccessibilityData" id="tbd:8100OPK-E1_to_940GZZLUWHM-acc_01">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="tbd:8100OPK-E1_to_940GZZLUWHM-acc_01" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -921,7 +948,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 							<AccessibilityAssessment version="any" id="naptPoi:8100OPK_ACID_21">
 								<MobilityImpairedAccess>true</MobilityImpairedAccess>
 								<limitations>
-									<AccessibilityLimitation>
+									<AccessibilityLimitation id="naptPoi:8100OPK_ACID_21" version="any">
 										<WheelchairAccess>true</WheelchairAccess>
 										<StepFreeAccess>true</StepFreeAccess>
 										<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -931,7 +958,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 							</AccessibilityAssessment>
 							<AccessModes>foot</AccessModes>
 							<alternativeNames>
-								<AlternativeName order="1" id="naptPoi:8100OPK_01">
+								<AlternativeName id="naptPoi:8100OPK_01-1">
 									<NameType>translation</NameType>
 									<TypeOfName>Title</TypeOfName>
 									<Name lang="fr">Parc Olympic</Name>
@@ -956,6 +983,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<Name>Ground</Name>
 									<ShortName>Ground</ShortName>
 									<PublicCode>G</PublicCode>
+									<RelativeLevelOrder>0</RelativeLevelOrder>
 								</Level>
 							</levels>
 							<entrances>
@@ -979,7 +1007,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_E1_ACAS1">
 										<MobilityImpairedAccess>false</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_E1_ACAS1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -992,7 +1020,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<SiteRef version="any" xsi:type="PointOfInterestRefStructure" ref="naptPoi:8100OPK"/>
 									<LevelRef version="any" ref="naptPoi:8100OPK_Lvl_01"/>
 									<checkConstraints>
-										<CheckConstraint version="any" id="naptPoi:8100OPK_E1_C1" order="1">
+										<CheckConstraint version="any" id="naptPoi:8100OPK_E1_C1-1">
 											<Name>Entrance to Security gate - incoming</Name>
 											<CheckDirection>forwards</CheckDirection>
 											<CheckProcess>securityCheck</CheckProcess>
@@ -1000,7 +1028,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 											<Congestion>queue</Congestion>
 											<delays>
 												<!-- == Delays on  Very Busy Days ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1_C1_Del_VB_i" order="1">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1_C1_Del_VB_i-1">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Very_Busy_ingress"/>
 													</validityConditions>
@@ -1008,7 +1036,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT30M</AverageDelay>
 													<MaximumLikelyDelay>PT60M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1_C1_Del_VB_d" order="2">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1_C1_Del_VB_d-2">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Very_Busy_during"/>
 													</validityConditions>
@@ -1016,7 +1044,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT15M</AverageDelay>
 													<MaximumLikelyDelay>PT30M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1_C1_Del_VB_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1_C1_Del_VB_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Very_Busy_other"/>
 													</validityConditions>
@@ -1025,7 +1053,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<MaximumLikelyDelay>PT6M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
 												<!-- == Delays on   Busy Days ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1_C1_Del_B_i" order="1">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1_C1_Del_B_i-1">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Busy_ingress"/>
 													</validityConditions>
@@ -1033,7 +1061,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT25M</AverageDelay>
 													<MaximumLikelyDelay>PT50M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1_C1_Del_B_d" order="2">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1_C1_Del_B_d-2">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Busy_during"/>
 													</validityConditions>
@@ -1041,7 +1069,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT15M</AverageDelay>
 													<MaximumLikelyDelay>PT30M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1_C1_Del_B_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1_C1_Del_B_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Busy_other"/>
 													</validityConditions>
@@ -1050,7 +1078,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<MaximumLikelyDelay>PT6M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
 												<!-- == Delays on  NormalDays ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1_C1_Del_N_d" order="2">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1_C1_Del_N_d-2">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Normal_during"/>
 													</validityConditions>
@@ -1058,7 +1086,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT10M</AverageDelay>
 													<MaximumLikelyDelay>PT20M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1_C1_Del_N_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1_C1_Del_N_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Normal_other"/>
 													</validityConditions>
@@ -1068,7 +1096,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 												</CheckConstraintDelay>
 											</delays>
 										</CheckConstraint>
-										<CheckConstraint version="any" id="naptPoi:8100OPK_E1_C2" order="1">
+										<CheckConstraint version="any" id="naptPoi:8100OPK_E1_C2-1">
 											<Name>Entrance to Security gate - Going Out</Name>
 											<CheckDirection>backwards</CheckDirection>
 											<CheckProcess>egress</CheckProcess>
@@ -1076,7 +1104,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 											<Congestion>queue</Congestion>
 											<delays>
 												<!-- == Delays on  Very Busy Days ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1_C2_Del_VB_d" order="2">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1_C2_Del_VB_d-2">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Very_Busy_during"/>
 													</validityConditions>
@@ -1084,7 +1112,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT15M</AverageDelay>
 													<MaximumLikelyDelay>PT30M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1_C2_Del_VB_e" order="3">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1_C2_Del_VB_e-3">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Very_Busy_egress"/>
 													</validityConditions>
@@ -1092,7 +1120,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT20M</AverageDelay>
 													<MaximumLikelyDelay>PT30M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1_C2_Del_VB_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1_C2_Del_VB_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Very_Busy_other"/>
 													</validityConditions>
@@ -1101,7 +1129,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<MaximumLikelyDelay>PT6M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
 												<!-- == Delays on   Busy Days ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1_C2_Del_B_d" order="2">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1_C2_Del_B_d-2">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Busy_during"/>
 													</validityConditions>
@@ -1109,7 +1137,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT15M</AverageDelay>
 													<MaximumLikelyDelay>PT30M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1_C2_Del_B_e" order="3">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1_C2_Del_B_e-3">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Busy_egress"/>
 													</validityConditions>
@@ -1117,7 +1145,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT15M</AverageDelay>
 													<MaximumLikelyDelay>PT25M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1_C2_Del_B_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1_C2_Del_B_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Busy_other"/>
 													</validityConditions>
@@ -1126,7 +1154,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<MaximumLikelyDelay>PT6M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
 												<!-- == Delays on  NormalDays ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1_C2_Del_N_d" order="2">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1_C2_Del_N_d-2">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Normal_during"/>
 													</validityConditions>
@@ -1134,7 +1162,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT10M</AverageDelay>
 													<MaximumLikelyDelay>PT20M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1_C2_Del_N_e" order="3">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1_C2_Del_N_e-3">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Normal_egress"/>
 													</validityConditions>
@@ -1142,7 +1170,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT12M</AverageDelay>
 													<MaximumLikelyDelay>PT20M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1_C2_Del_N_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1_C2_Del_N_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Normal_other"/>
 													</validityConditions>
@@ -1177,7 +1205,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_E1acc_ACAS1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_E1acc_ACAS1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -1190,7 +1218,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<SiteRef version="any" xsi:type="PointOfInterestRefStructure" ref="naptPoi:8100OPK"/>
 									<LevelRef version="any" ref="naptPoi:8100OPK_Lvl_01"/>
 									<checkConstraints>
-										<CheckConstraint version="any" id="naptPoi:8100OPK_E1acc_C1" order="1">
+										<CheckConstraint version="any" id="naptPoi:8100OPK_E1acc_C1-1">
 											<Name>Entrance to Security gate - incoming</Name>
 											<CheckDirection>forwards</CheckDirection>
 											<CheckProcess>securityCheck</CheckProcess>
@@ -1198,7 +1226,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 											<Congestion>queue</Congestion>
 											<delays>
 												<!-- == Delays on  Very Busy Days ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1acc_C1_Del_VB_i" order="1">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1acc_C1_Del_VB_i-1">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Very_Busy_ingress"/>
 													</validityConditions>
@@ -1206,7 +1234,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT30M</AverageDelay>
 													<MaximumLikelyDelay>PT60M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1acc_C1_Del_VB_d" order="2">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1acc_C1_Del_VB_d-2">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Very_Busy_during"/>
 													</validityConditions>
@@ -1214,7 +1242,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT15M</AverageDelay>
 													<MaximumLikelyDelay>PT30M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1acc_C1_Del_VB_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1acc_C1_Del_VB_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Very_Busy_other"/>
 													</validityConditions>
@@ -1223,7 +1251,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<MaximumLikelyDelay>PT6M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
 												<!-- == Delays on   Busy Days ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1acc_C1_Del_B_i" order="1">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1acc_C1_Del_B_i-1">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Busy_ingress"/>
 													</validityConditions>
@@ -1231,7 +1259,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT25M</AverageDelay>
 													<MaximumLikelyDelay>PT50M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1acc_C1_Del_B_d" order="2">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1acc_C1_Del_B_d-2">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Busy_during"/>
 													</validityConditions>
@@ -1239,7 +1267,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT15M</AverageDelay>
 													<MaximumLikelyDelay>PT30M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1acc_C1_Del_B_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1acc_C1_Del_B_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Busy_other"/>
 													</validityConditions>
@@ -1248,7 +1276,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<MaximumLikelyDelay>PT6M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
 												<!-- == Delays on  NormalDays ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1acc_C1_Del_N_d" order="2">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1acc_C1_Del_N_d-2">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Normal_during"/>
 													</validityConditions>
@@ -1256,7 +1284,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT10M</AverageDelay>
 													<MaximumLikelyDelay>PT20M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1acc_C1_Del_N_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1acc_C1_Del_N_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Normal_other"/>
 													</validityConditions>
@@ -1266,7 +1294,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 												</CheckConstraintDelay>
 											</delays>
 										</CheckConstraint>
-										<CheckConstraint version="any" id="naptPoi:8100OPK_E1acc_C2" order="1">
+										<CheckConstraint version="any" id="naptPoi:8100OPK_E1acc_C2-1">
 											<Name>Entrance to Security gate - Going Out</Name>
 											<CheckDirection>backwards</CheckDirection>
 											<CheckProcess>egress</CheckProcess>
@@ -1274,7 +1302,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 											<Congestion>queue</Congestion>
 											<delays>
 												<!-- == Delays on  Very Busy Days ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1acc_C2_Del_VB_d" order="2">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1acc_C2_Del_VB_d-2">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Very_Busy_during"/>
 													</validityConditions>
@@ -1282,7 +1310,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT15M</AverageDelay>
 													<MaximumLikelyDelay>PT30M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1acc_C2_Del_VB_e" order="3">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1acc_C2_Del_VB_e-3">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Very_Busy_egress"/>
 													</validityConditions>
@@ -1290,7 +1318,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT20M</AverageDelay>
 													<MaximumLikelyDelay>PT30M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1acc_C2_Del_VB_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1acc_C2_Del_VB_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Very_Busy_other"/>
 													</validityConditions>
@@ -1299,7 +1327,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<MaximumLikelyDelay>PT6M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
 												<!-- == Delays on   Busy Days ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1acc_C2_Del_B_d" order="2">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1acc_C2_Del_B_d-2">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Busy_during"/>
 													</validityConditions>
@@ -1307,7 +1335,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT15M</AverageDelay>
 													<MaximumLikelyDelay>PT30M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1acc_C2_Del_B_e" order="3">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1acc_C2_Del_B_e-3">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Busy_egress"/>
 													</validityConditions>
@@ -1315,7 +1343,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT15M</AverageDelay>
 													<MaximumLikelyDelay>PT25M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1acc_C2_Del_B_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1acc_C2_Del_B_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Busy_other"/>
 													</validityConditions>
@@ -1324,7 +1352,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<MaximumLikelyDelay>PT6M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
 												<!-- == Delays on  NormalDays ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1acc_C2_Del_N_d" order="2">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1acc_C2_Del_N_d-2">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Normal_during"/>
 													</validityConditions>
@@ -1332,7 +1360,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT10M</AverageDelay>
 													<MaximumLikelyDelay>PT20M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1acc_C2_Del_N_e" order="3">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1acc_C2_Del_N_e-3">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Normal_egress"/>
 													</validityConditions>
@@ -1340,7 +1368,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT12M</AverageDelay>
 													<MaximumLikelyDelay>PT20M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1acc_C2_Del_N_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E1acc_C2_Del_N_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Normal_other"/>
 													</validityConditions>
@@ -1381,7 +1409,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_E2_ACAS1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_E2_ACAS1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -1394,7 +1422,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<SiteRef version="any" xsi:type="PointOfInterestRefStructure" ref="naptPoi:8100OPK"/>
 									<LevelRef version="any" ref="naptPoi:8100OPK_Lvl_01"/>
 									<checkConstraints>
-										<CheckConstraint version="any" id="naptPoi:8100OPK_E2_C1" order="1">
+										<CheckConstraint version="any" id="naptPoi:8100OPK_E2_C1-1">
 											<Name>Entrance to Security gate - incoming</Name>
 											<CheckDirection>forwards</CheckDirection>
 											<CheckProcess>securityCheck</CheckProcess>
@@ -1402,7 +1430,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 											<Congestion>queue</Congestion>
 											<delays>
 												<!-- == Delays on  Very Busy Days ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E2_C1_Del_VB_i" order="1">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E2_C1_Del_VB_i-1">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Very_Busy_ingress"/>
 													</validityConditions>
@@ -1410,7 +1438,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT30M</AverageDelay>
 													<MaximumLikelyDelay>PT60M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E2_C1_Del_VB_d" order="2">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E2_C1_Del_VB_d-2">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Very_Busy_during"/>
 													</validityConditions>
@@ -1418,7 +1446,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT15M</AverageDelay>
 													<MaximumLikelyDelay>PT30M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E2_C1_Del_VB_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E2_C1_Del_VB_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Very_Busy_other"/>
 													</validityConditions>
@@ -1427,7 +1455,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<MaximumLikelyDelay>PT6M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
 												<!-- == Delays on   Busy Days ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E2_C1_Del_B_i" order="1">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E2_C1_Del_B_i-1">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Busy_ingress"/>
 													</validityConditions>
@@ -1435,7 +1463,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT25M</AverageDelay>
 													<MaximumLikelyDelay>PT50M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E2_C1_Del_B_d" order="2">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E2_C1_Del_B_d-2">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Busy_during"/>
 													</validityConditions>
@@ -1443,7 +1471,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT15M</AverageDelay>
 													<MaximumLikelyDelay>PT30M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E2_C1_Del_B_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E2_C1_Del_B_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Busy_other"/>
 													</validityConditions>
@@ -1452,7 +1480,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<MaximumLikelyDelay>PT6M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
 												<!-- == Delays on  NormalDays ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E2_C1_Del_N_i" order="1">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E2_C1_Del_N_i-1">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Normal_ingress"/>
 													</validityConditions>
@@ -1460,7 +1488,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT20M</AverageDelay>
 													<MaximumLikelyDelay>PT40M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E2_C1_Del_N_d" order="2">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E2_C1_Del_N_d-2">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Normal_during"/>
 													</validityConditions>
@@ -1468,7 +1496,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT10M</AverageDelay>
 													<MaximumLikelyDelay>PT20M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E2_C1_Del_N_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E2_C1_Del_N_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Normal_other"/>
 													</validityConditions>
@@ -1478,7 +1506,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 												</CheckConstraintDelay>
 											</delays>
 										</CheckConstraint>
-										<CheckConstraint version="any" id="naptPoi:8100OPK_E2_C2" order="1">
+										<CheckConstraint version="any" id="naptPoi:8100OPK_E2_C2-1">
 											<Name>Entrance to Security gate - Going Out</Name>
 											<CheckDirection>backwards</CheckDirection>
 											<CheckProcess>egress</CheckProcess>
@@ -1486,7 +1514,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 											<Congestion>queue</Congestion>
 											<delays>
 												<!-- == Delays on  Very Busy Days ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E2_C2_Del_VB_d" order="2">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E2_C2_Del_VB_d-2">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Very_Busy_during"/>
 													</validityConditions>
@@ -1494,7 +1522,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT15M</AverageDelay>
 													<MaximumLikelyDelay>PT30M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E2_C2_Del_VB_e" order="3">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E2_C2_Del_VB_e-3">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Very_Busy_egress"/>
 													</validityConditions>
@@ -1502,7 +1530,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT20M</AverageDelay>
 													<MaximumLikelyDelay>PT30M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E2_C2_Del_VB_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E2_C2_Del_VB_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Very_Busy_other"/>
 													</validityConditions>
@@ -1511,7 +1539,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<MaximumLikelyDelay>PT6M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
 												<!-- == Delays on   Busy Days ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E2_C2_Del_B_d" order="2">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E2_C2_Del_B_d-2">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Busy_during"/>
 													</validityConditions>
@@ -1519,7 +1547,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT15M</AverageDelay>
 													<MaximumLikelyDelay>PT30M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E2_C2_Del_B_e" order="3">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E2_C2_Del_B_e-3">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Busy_egress"/>
 													</validityConditions>
@@ -1527,7 +1555,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT15M</AverageDelay>
 													<MaximumLikelyDelay>PT25M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E2_C2_Del_B_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E2_C2_Del_B_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Busy_other"/>
 													</validityConditions>
@@ -1536,7 +1564,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<MaximumLikelyDelay>PT6M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
 												<!-- == Delays on  NormalDays ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E2_C2_Del_N_d" order="2">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E2_C2_Del_N_d-2">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Normal_during"/>
 													</validityConditions>
@@ -1544,7 +1572,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT10M</AverageDelay>
 													<MaximumLikelyDelay>PT20M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E2_C2_Del_N_e" order="3">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E2_C2_Del_N_e-3">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Normal_egress"/>
 													</validityConditions>
@@ -1552,7 +1580,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT12M</AverageDelay>
 													<MaximumLikelyDelay>PT20M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E2_C2_Del_N_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E2_C2_Del_N_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Normal_other"/>
 													</validityConditions>
@@ -1593,7 +1621,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_E3_ACAS1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_E3_ACAS1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -1606,7 +1634,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<SiteRef version="any" xsi:type="PointOfInterestRefStructure" ref="naptPoi:8100OPK"/>
 									<LevelRef version="any" ref="naptPoi:8100OPK_Lvl_01"/>
 									<checkConstraints>
-										<CheckConstraint version="any" id="naptPoi:8100OPK_E3_C1" order="1">
+										<CheckConstraint version="any" id="naptPoi:8100OPK_E3_C1-1">
 											<Name>Entrance to Security gate - incoming</Name>
 											<CheckDirection>forwards</CheckDirection>
 											<CheckProcess>securityCheck</CheckProcess>
@@ -1614,7 +1642,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 											<Congestion>queue</Congestion>
 											<delays>
 												<!-- == Delays on  Very Busy Days ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E3_C1_Del_VB_i" order="1">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E3_C1_Del_VB_i-1">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Very_Busy_ingress"/>
 													</validityConditions>
@@ -1622,7 +1650,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT30M</AverageDelay>
 													<MaximumLikelyDelay>PT60M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E3_C1_Del_VB_d" order="2">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E3_C1_Del_VB_d-2">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Very_Busy_during"/>
 													</validityConditions>
@@ -1630,7 +1658,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT15M</AverageDelay>
 													<MaximumLikelyDelay>PT30M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E3_C1_Del_VB_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E3_C1_Del_VB_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Very_Busy_other"/>
 													</validityConditions>
@@ -1639,7 +1667,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<MaximumLikelyDelay>PT6M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
 												<!-- == Delays on   Busy Days ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E3_C1_Del_B_i" order="1">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E3_C1_Del_B_i-1">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Busy_ingress"/>
 													</validityConditions>
@@ -1647,7 +1675,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT25M</AverageDelay>
 													<MaximumLikelyDelay>PT50M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E3_C1_Del_B_d" order="2">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E3_C1_Del_B_d-2">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Busy_during"/>
 													</validityConditions>
@@ -1655,7 +1683,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT15M</AverageDelay>
 													<MaximumLikelyDelay>PT30M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E3_C1_Del_B_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E3_C1_Del_B_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Busy_other"/>
 													</validityConditions>
@@ -1664,7 +1692,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<MaximumLikelyDelay>PT6M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
 												<!-- == Delays on  NormalDays ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E3_C1_Del_N_i" order="1">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E3_C1_Del_N_i-1">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Normal_ingress"/>
 													</validityConditions>
@@ -1672,7 +1700,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT20M</AverageDelay>
 													<MaximumLikelyDelay>PT40M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E3_C1_Del_N_d" order="2">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E3_C1_Del_N_d-2">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Normal_during"/>
 													</validityConditions>
@@ -1680,7 +1708,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT10M</AverageDelay>
 													<MaximumLikelyDelay>PT20M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E3_C1_Del_N_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E3_C1_Del_N_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Normal_other"/>
 													</validityConditions>
@@ -1690,7 +1718,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 												</CheckConstraintDelay>
 											</delays>
 										</CheckConstraint>
-										<CheckConstraint version="any" id="naptPoi:8100OPK_E3_C2" order="1">
+										<CheckConstraint version="any" id="naptPoi:8100OPK_E3_C2-1">
 											<Name>Entrance to Security gate - Going Out</Name>
 											<CheckDirection>backwards</CheckDirection>
 											<CheckProcess>egress</CheckProcess>
@@ -1698,7 +1726,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 											<Congestion>queue</Congestion>
 											<delays>
 												<!-- == Delays on  Very Busy Days ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E3_C2_Del_VB_d" order="2">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E3_C2_Del_VB_d-2">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Very_Busy_during"/>
 													</validityConditions>
@@ -1706,7 +1734,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT15M</AverageDelay>
 													<MaximumLikelyDelay>PT30M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E3_C2_Del_VB_e" order="3">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E3_C2_Del_VB_e-3">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Very_Busy_egress"/>
 													</validityConditions>
@@ -1714,7 +1742,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT20M</AverageDelay>
 													<MaximumLikelyDelay>PT30M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E3_C2_Del_VB_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E3_C2_Del_VB_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Very_Busy_other"/>
 													</validityConditions>
@@ -1723,7 +1751,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<MaximumLikelyDelay>PT6M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
 												<!-- == Delays on   Busy Days ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E3_C2_Del_B_d" order="2">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E3_C2_Del_B_d-2">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Busy_during"/>
 													</validityConditions>
@@ -1731,7 +1759,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT15M</AverageDelay>
 													<MaximumLikelyDelay>PT30M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E3_C2_Del_B_e" order="3">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E3_C2_Del_B_e-3">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Busy_egress"/>
 													</validityConditions>
@@ -1739,7 +1767,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT15M</AverageDelay>
 													<MaximumLikelyDelay>PT25M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E3_C2_Del_B_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E3_C2_Del_B_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Busy_other"/>
 													</validityConditions>
@@ -1748,7 +1776,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<MaximumLikelyDelay>PT6M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
 												<!-- == Delays on  NormalDays ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E3_C2_Del_N_d" order="2">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E3_C2_Del_N_d-2">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Normal_during"/>
 													</validityConditions>
@@ -1756,7 +1784,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT10M</AverageDelay>
 													<MaximumLikelyDelay>PT20M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E3_C2_Del_N_e" order="3">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E3_C2_Del_N_e-3">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Normal_egress"/>
 													</validityConditions>
@@ -1764,7 +1792,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT12M</AverageDelay>
 													<MaximumLikelyDelay>PT20M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E3_C2_Del_N_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E3_C2_Del_N_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Normal_other"/>
 													</validityConditions>
@@ -1805,7 +1833,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_E4_ACAS1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_E4_ACAS1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -1818,7 +1846,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<SiteRef version="any" xsi:type="PointOfInterestRefStructure" ref="naptPoi:8100OPK"/>
 									<LevelRef version="any" ref="naptPoi:8100OPK_Lvl_01"/>
 									<checkConstraints>
-										<CheckConstraint version="any" id="naptPoi:8100OPK_E4_C1" order="1">
+										<CheckConstraint version="any" id="naptPoi:8100OPK_E4_C1-1">
 											<Name>Entrance to Security gate - incoming</Name>
 											<CheckDirection>forwards</CheckDirection>
 											<CheckProcess>securityCheck</CheckProcess>
@@ -1826,7 +1854,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 											<Congestion>queue</Congestion>
 											<delays>
 												<!-- == Delays on  Very Busy Days ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E4_C1_Del_VB_i" order="1">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E4_C1_Del_VB_i-1">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Very_Busy_ingress"/>
 													</validityConditions>
@@ -1834,7 +1862,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT30M</AverageDelay>
 													<MaximumLikelyDelay>PT60M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E4_C1_Del_VB_d" order="2">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E4_C1_Del_VB_d-2">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Very_Busy_during"/>
 													</validityConditions>
@@ -1842,7 +1870,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT15M</AverageDelay>
 													<MaximumLikelyDelay>PT30M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E4_C1_Del_VB_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E4_C1_Del_VB_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Very_Busy_other"/>
 													</validityConditions>
@@ -1851,7 +1879,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<MaximumLikelyDelay>PT6M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
 												<!-- == Delays on   Busy Days ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E4_C1_Del_B_i" order="1">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E4_C1_Del_B_i-1">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Busy_ingress"/>
 													</validityConditions>
@@ -1859,7 +1887,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT25M</AverageDelay>
 													<MaximumLikelyDelay>PT50M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E4_C1_Del_B_d" order="2">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E4_C1_Del_B_d-2">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Busy_during"/>
 													</validityConditions>
@@ -1867,7 +1895,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT15M</AverageDelay>
 													<MaximumLikelyDelay>PT30M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E4_C1_Del_B_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E4_C1_Del_B_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Busy_other"/>
 													</validityConditions>
@@ -1876,7 +1904,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<MaximumLikelyDelay>PT6M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
 												<!-- == Delays on  NormalDays ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E4_C1_Del_N_i" order="1">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E4_C1_Del_N_i-1">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Normal_ingress"/>
 													</validityConditions>
@@ -1884,7 +1912,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT20M</AverageDelay>
 													<MaximumLikelyDelay>PT40M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E4_C1_Del_N_d" order="2">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E4_C1_Del_N_d-2">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Normal_during"/>
 													</validityConditions>
@@ -1892,7 +1920,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT10M</AverageDelay>
 													<MaximumLikelyDelay>PT20M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E4_C1_Del_N_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E4_C1_Del_N_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Normal_other"/>
 													</validityConditions>
@@ -1902,7 +1930,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 												</CheckConstraintDelay>
 											</delays>
 										</CheckConstraint>
-										<CheckConstraint version="any" id="naptPoi:8100OPK_E4_C2" order="1">
+										<CheckConstraint version="any" id="naptPoi:8100OPK_E4_C2-1">
 											<Name>Entrance to Security gate - Going Out</Name>
 											<CheckDirection>backwards</CheckDirection>
 											<CheckProcess>egress</CheckProcess>
@@ -1910,7 +1938,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 											<Congestion>queue</Congestion>
 											<delays>
 												<!-- == Delays on  Very Busy Days ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E4_C2_Del_VB_d" order="2">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E4_C2_Del_VB_d-2">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Very_Busy_during"/>
 													</validityConditions>
@@ -1918,7 +1946,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT15M</AverageDelay>
 													<MaximumLikelyDelay>PT30M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E4_C2_Del_VB_e" order="3">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E4_C2_Del_VB_e-3">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Very_Busy_egress"/>
 													</validityConditions>
@@ -1926,7 +1954,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT20M</AverageDelay>
 													<MaximumLikelyDelay>PT30M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E4_C2_Del_VB_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E4_C2_Del_VB_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Very_Busy_other"/>
 													</validityConditions>
@@ -1935,7 +1963,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<MaximumLikelyDelay>PT6M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
 												<!-- == Delays on   Busy Days ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E4_C2_Del_B_d" order="2">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E4_C2_Del_B_d-2">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Busy_during"/>
 													</validityConditions>
@@ -1943,7 +1971,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT15M</AverageDelay>
 													<MaximumLikelyDelay>PT30M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E4_C2_Del_B_e" order="3">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E4_C2_Del_B_e-3">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Busy_egress"/>
 													</validityConditions>
@@ -1951,7 +1979,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT15M</AverageDelay>
 													<MaximumLikelyDelay>PT25M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E4_C2_Del_B_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E4_C2_Del_B_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Busy_other"/>
 													</validityConditions>
@@ -1960,7 +1988,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<MaximumLikelyDelay>PT6M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
 												<!-- == Delays on  NormalDays ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E5_C2_Del_B_d" order="2">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E5_C2_Del_B_d-2">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Normal_during"/>
 													</validityConditions>
@@ -1968,7 +1996,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT10M</AverageDelay>
 													<MaximumLikelyDelay>PT20M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E5_C2_Del_B_e" order="3">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E5_C2_Del_B_e-3">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Normal_egress"/>
 													</validityConditions>
@@ -1976,7 +2004,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT12M</AverageDelay>
 													<MaximumLikelyDelay>PT20M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E5_C2_Del_B_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E5_C2_Del_B_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Normal_other"/>
 													</validityConditions>
@@ -2017,7 +2045,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_E5_ACAS1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_E5_ACAS1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -2030,7 +2058,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<SiteRef version="any" xsi:type="PointOfInterestRefStructure" ref="naptPoi:8100OPK"/>
 									<LevelRef version="any" ref="naptPoi:8100OPK_Lvl_01"/>
 									<checkConstraints>
-										<CheckConstraint version="any" id="naptPoi:8100OPK_E5_C1" order="1">
+										<CheckConstraint version="any" id="naptPoi:8100OPK_E5_C1-1">
 											<Name>Entrance to Security gate - incoming</Name>
 											<CheckDirection>forwards</CheckDirection>
 											<CheckProcess>securityCheck</CheckProcess>
@@ -2038,7 +2066,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 											<Congestion>queue</Congestion>
 											<delays>
 												<!-- == Delays on  Very Busy Days ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E5_C1_Del_VB_i" order="1">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E5_C1_Del_VB_i-1">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Very_Busy_ingress"/>
 													</validityConditions>
@@ -2046,7 +2074,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT10M</AverageDelay>
 													<MaximumLikelyDelay>PT10M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E5_C1_Del_VB_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E5_C1_Del_VB_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Very_Busy_other"/>
 													</validityConditions>
@@ -2055,7 +2083,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<MaximumLikelyDelay>PT6M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
 												<!-- == Delays on  NormalDays ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E5_C1_Del_N_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E5_C1_Del_N_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Normal_other"/>
 													</validityConditions>
@@ -2065,7 +2093,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 												</CheckConstraintDelay>
 											</delays>
 										</CheckConstraint>
-										<CheckConstraint version="any" id="naptPoi:8100OPK_E5_C2" order="1">
+										<CheckConstraint version="any" id="naptPoi:8100OPK_E5_C2-1">
 											<Name>Entrance to Security gate - Going Out</Name>
 											<CheckDirection>backwards</CheckDirection>
 											<CheckProcess>egress</CheckProcess>
@@ -2073,7 +2101,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 											<Congestion>queue</Congestion>
 											<delays>
 												<!-- == Delays on  Every day==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E5_C2_Del_N_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_E5_C2_Del_N_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Normal_other"/>
 													</validityConditions>
@@ -2152,7 +2180,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_fully_accessible">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_fully_accessible" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3224,7 +3252,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.1i_OPK-E1_to_V1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.1i_OPK-E1_to_V1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3263,7 +3291,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.2i_OPK-E1_to_V2-E1_ac1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.2i_OPK-E1_to_V2-E1_ac1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3302,7 +3330,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.3i_OPK-E1_to_V3-E1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.3i_OPK-E1_to_V3-E1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3341,7 +3369,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.4i_OPK-E1_to_V4-E1_ac1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.4i_OPK-E1_to_V4-E1_ac1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3380,7 +3408,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.5i_OPK-E1_to_V5-E1_ac1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.5i_OPK-E1_to_V5-E1_ac1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3419,7 +3447,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.6i_OPK-E1_to_V6-E1_ac1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.6i_OPK-E1_to_V6-E1_ac1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3458,7 +3486,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.7i_OPK-E1_to_V7-E1_ac1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.7i_OPK-E1_to_V7-E1_ac1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3497,7 +3525,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.8i_OPK-E1_to_V8-E1_ac1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.8i_OPK-E1_to_V8-E1_ac1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3522,65 +3550,65 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<Gated>gatedArea</Gated>
 									<NavigationType>streetToSpace</NavigationType>
 									<pathLinksInSequence>
-										<PathLinkInSequence version="any" order="1" id="naptPoi:8100OPK_N1_l01">
-											<PathLinkRef version="any" ref="naptPoi:8100OPK_E1_to_pj1"/>
+										<PathLinkInSequence version="any" id="naptPoi:8100OPK_N1_l01-1">
 											<Description>Entrance to aquatics vicinity</Description>
+											<PathLinkRef version="any" ref="naptPoi:8100OPK_E1_to_pj1"/>
 											<Reverse>false</Reverse>
 											<Heading>forward</Heading>
 											<Transition>level</Transition>
 										</PathLinkInSequence>
-										<PathLinkInSequence version="any" order="2" id="naptPoi:8100OPK_N1_l02">
-											<PathLinkRef version="any" ref="naptPoi:8100OPK_pj11_to_SPC_4"/>
+										<PathLinkInSequence version="any" id="naptPoi:8100OPK_N1_l02-2">
 											<Description>quatics vicinity to bridge 4</Description>
+											<PathLinkRef version="any" ref="naptPoi:8100OPK_pj11_to_SPC_4"/>
 											<Reverse>false</Reverse>
 											<Heading>forward</Heading>
 											<Transition>level</Transition>
 										</PathLinkInSequence>
-										<PathLinkInSequence version="any" order="3" id="naptPoi:8100OPK_N1_l03">
-											<PathLinkRef version="any" ref="naptPoi:8100OPK_SPC_4_to_pj3"/>
+										<PathLinkInSequence version="any" id="naptPoi:8100OPK_N1_l03-3">
 											<Description>from bridge 4 to Stadium vicinity </Description>
+											<PathLinkRef version="any" ref="naptPoi:8100OPK_SPC_4_to_pj3"/>
 											<Reverse>false</Reverse>
 											<Heading>right</Heading>
 											<Transition>level</Transition>
 										</PathLinkInSequence>
-										<PathLinkInSequence version="any" order="4" id="naptPoi:8100OPK_N1_l04">
-											<PathLinkRef version="any" ref="naptPoi:8100OPK_pj3_to_pj5"/>
+										<PathLinkInSequence version="any" id="naptPoi:8100OPK_N1_l04-4">
 											<Description>Stadium vicinity to Stadium vicinity </Description>
+											<PathLinkRef version="any" ref="naptPoi:8100OPK_pj3_to_pj5"/>
 											<Reverse>false</Reverse>
 											<Heading>forward</Heading>
 											<Transition>level</Transition>
 										</PathLinkInSequence>
-										<PathLinkInSequence version="any" order="5" id="naptPoi:8100OPK_N1_l05">
-											<PathLinkRef version="any" ref="naptPoi:8100OPK_pj5_to_pj10"/>
+										<PathLinkInSequence version="any" id="naptPoi:8100OPK_N1_l05-5">
 											<Description>Stadium vicinity to handball arvicinity ea</Description>
+											<PathLinkRef version="any" ref="naptPoi:8100OPK_pj5_to_pj10"/>
 											<Reverse>false</Reverse>
 											<Heading>forward</Heading>
 											<Transition>level</Transition>
 										</PathLinkInSequence>
-										<PathLinkInSequence version="any" order="6" id="naptPoi:8100OPK_N1_l06">
-											<PathLinkRef version="any" ref="naptPoi:8100OPK_pj10_to_pj8"/>
+										<PathLinkInSequence version="any" id="naptPoi:8100OPK_N1_l06-6">
 											<Description>Handball vicinity to haHockey  arvicinity ea</Description>
+											<PathLinkRef version="any" ref="naptPoi:8100OPK_pj10_to_pj8"/>
 											<Reverse>true</Reverse>
 											<Heading>forward</Heading>
 											<Transition>level</Transition>
 										</PathLinkInSequence>
-										<PathLinkInSequence version="any" order="7" id="naptPoi:8100OPK_N1_l07">
-											<PathLinkRef version="any" ref="naptPoi:8100OPK_pj10_to_SPC_4"/>
+										<PathLinkInSequence version="any" id="naptPoi:8100OPK_N1_l07-7">
 											<Description>hockey vicinity to bridge 2</Description>
+											<PathLinkRef version="any" ref="naptPoi:8100OPK_pj10_to_SPC_4"/>
 											<Reverse>false</Reverse>
 											<Heading>right</Heading>
 											<Transition>level</Transition>
 										</PathLinkInSequence>
-										<PathLinkInSequence version="any" order="8" id="naptPoi:8100OPK_N1_l08">
-											<PathLinkRef version="any" ref="naptPoi:8100OPK_pj11_to_SPC_4"/>
+										<PathLinkInSequence version="any" id="naptPoi:8100OPK_N1_l08-8">
 											<Description>bridge2  to velo vicinity </Description>
+											<PathLinkRef version="any" ref="naptPoi:8100OPK_pj11_to_SPC_4"/>
 											<Reverse>false</Reverse>
 											<Heading>forward</Heading>
 											<Transition>level</Transition>
 										</PathLinkInSequence>
-										<PathLinkInSequence version="any" order="9" id="naptPoi:8100OPK_N1_l09">
-											<PathLinkRef version="any" ref="naptPoi:8100OPK_pj11_to_V8-E1"/>
+										<PathLinkInSequence version="any" id="naptPoi:8100OPK_N1_l09-9">
 											<Description>to BMX</Description>
+											<PathLinkRef version="any" ref="naptPoi:8100OPK_pj11_to_V8-E1"/>
 											<Reverse>true</Reverse>
 											<Heading>forward</Heading>
 											<Transition>level</Transition>
@@ -3601,7 +3629,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.9i_OPK-E1_to_V9-E1_ac1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.9i_OPK-E1_to_V9-E1_ac1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3640,7 +3668,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.10i_OPK-E1_to_V10-E1_ac1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.10i_OPK-E1_to_V10-E1_ac1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3678,7 +3706,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.11i_OPK-E1_to_V11-E1_ac1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.11i_OPK-E1_to_V11-E1_ac1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3717,7 +3745,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.1o_OPK-E1_to_V1_ac1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.1o_OPK-E1_to_V1_ac1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3756,7 +3784,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.2o_OPK-E1_to_V2-E1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.2o_OPK-E1_to_V2-E1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3795,7 +3823,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.3o_OPK-E1_to_V3-E1_ac1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.3o_OPK-E1_to_V3-E1_ac1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3834,7 +3862,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.4o_OPK-E1_to_V4-E1_ac1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.4o_OPK-E1_to_V4-E1_ac1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3873,7 +3901,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.5o_OPK-E1_to_V5-E1_ac1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.5o_OPK-E1_to_V5-E1_ac1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3912,7 +3940,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.6o_OPK-E1_to_V6-E1_ac1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.6o_OPK-E1_to_V6-E1_ac1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3951,7 +3979,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.7o_OPK-E1_to_V7-E1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.7o_OPK-E1_to_V7-E1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3990,7 +4018,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.8o_V8-E1_to_OPK-E1_ac1">
 										<MobilityImpairedAccess>false</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.8o_V8-E1_to_OPK-E1_ac1" version="any">
 												<WheelchairAccess>false</WheelchairAccess>
 												<StepFreeAccess>false</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -4020,65 +4048,65 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<Gated>gatedArea</Gated>
 									<NavigationType>spaceToStreet</NavigationType>
 									<pathLinksInSequence>
-										<PathLinkInSequence version="any" order="1" id="naptPoi:8100OPK_N2_l01">
-											<PathLinkRef version="any" ref="naptPoi:8100OPK_pj11_to_V8-E1"/>
+										<PathLinkInSequence version="any" id="naptPoi:8100OPK_N2_l01-1">
 											<Description>to BMX</Description>
+											<PathLinkRef version="any" ref="naptPoi:8100OPK_pj11_to_V8-E1"/>
 											<Reverse>false</Reverse>
 											<Heading>forward</Heading>
 											<Transition>level</Transition>
 										</PathLinkInSequence>
-										<PathLinkInSequence version="any" order="2" id="naptPoi:8100OPK_N2_l02">
-											<PathLinkRef version="any" ref="naptPoi:8100OPK_pj11_to_SPC_4"/>
+										<PathLinkInSequence version="any" id="naptPoi:8100OPK_N2_l02-2">
 											<Description>bridge2  to velo vicinity </Description>
-											<Reverse>true</Reverse>
-											<Heading>forward</Heading>
-											<Transition>level</Transition>
-										</PathLinkInSequence>
-										<PathLinkInSequence version="any" order="3" id="naptPoi:8100OPK_N2_l03">
-											<PathLinkRef version="any" ref="naptPoi:8100OPK_pj10_to_SPC_4"/>
-											<Description>hockey vicinity to bridge 2</Description>
-											<Reverse>true</Reverse>
-											<Heading>forward</Heading>
-											<Transition>level</Transition>
-										</PathLinkInSequence>
-										<PathLinkInSequence version="any" order="4" id="naptPoi:8100OPK_N2_l04">
-											<PathLinkRef version="any" ref="naptPoi:8100OPK_pj10_to_pj8"/>
-											<Description>Handball vicinity to haHockey  arvicinity ea</Description>
-											<Reverse>true</Reverse>
-											<Heading>left</Heading>
-											<Transition>level</Transition>
-										</PathLinkInSequence>
-										<PathLinkInSequence version="any" order="5" id="naptPoi:8100OPK_N2_l05">
-											<PathLinkRef version="any" ref="naptPoi:8100OPK_pj5_to_pj10"/>
-											<Description>Stadium vicinity to handball  vicinity ea</Description>
-											<Reverse>false</Reverse>
-											<Heading>forward</Heading>
-											<Transition>level</Transition>
-										</PathLinkInSequence>
-										<PathLinkInSequence version="any" order="6" id="naptPoi:8100OPK_N2_l06">
-											<PathLinkRef version="any" ref="naptPoi:8100OPK_pj3_to_pj5"/>
-											<Description>Stadium vicinity to Stadium vicinity </Description>
-											<Reverse>false</Reverse>
-											<Heading>forward</Heading>
-											<Transition>level</Transition>
-										</PathLinkInSequence>
-										<PathLinkInSequence version="any" order="7" id="naptPoi:8100OPK_N2_l07">
-											<PathLinkRef version="any" ref="naptPoi:8100OPK_SPC_4_to_pj3"/>
-											<Description>from bridge 4 to Stadium vicinity </Description>
-											<Reverse>false</Reverse>
-											<Heading>left</Heading>
-											<Transition>level</Transition>
-										</PathLinkInSequence>
-										<PathLinkInSequence version="any" order="8" id="naptPoi:8100OPK_N2_l08">
 											<PathLinkRef version="any" ref="naptPoi:8100OPK_pj11_to_SPC_4"/>
-											<Description>quatics vicinity to bridge 4</Description>
+											<Reverse>true</Reverse>
+											<Heading>forward</Heading>
+											<Transition>level</Transition>
+										</PathLinkInSequence>
+										<PathLinkInSequence version="any" id="naptPoi:8100OPK_N2_l03-3">
+											<Description>hockey vicinity to bridge 2</Description>
+											<PathLinkRef version="any" ref="naptPoi:8100OPK_pj10_to_SPC_4"/>
+											<Reverse>true</Reverse>
+											<Heading>forward</Heading>
+											<Transition>level</Transition>
+										</PathLinkInSequence>
+										<PathLinkInSequence version="any" id="naptPoi:8100OPK_N2_l04-4">
+											<Description>Handball vicinity to haHockey  arvicinity ea</Description>
+											<PathLinkRef version="any" ref="naptPoi:8100OPK_pj10_to_pj8"/>
+											<Reverse>true</Reverse>
+											<Heading>left</Heading>
+											<Transition>level</Transition>
+										</PathLinkInSequence>
+										<PathLinkInSequence version="any" id="naptPoi:8100OPK_N2_l05-5">
+											<Description>Stadium vicinity to handball  vicinity ea</Description>
+											<PathLinkRef version="any" ref="naptPoi:8100OPK_pj5_to_pj10"/>
 											<Reverse>false</Reverse>
 											<Heading>forward</Heading>
 											<Transition>level</Transition>
 										</PathLinkInSequence>
-										<PathLinkInSequence version="any" order="9" id="naptPoi:8100OPK_N2_l09">
-											<PathLinkRef version="any" ref="naptPoi:8100OPK_E1_to_pj1"/>
+										<PathLinkInSequence version="any" id="naptPoi:8100OPK_N2_l06-6">
+											<Description>Stadium vicinity to Stadium vicinity </Description>
+											<PathLinkRef version="any" ref="naptPoi:8100OPK_pj3_to_pj5"/>
+											<Reverse>false</Reverse>
+											<Heading>forward</Heading>
+											<Transition>level</Transition>
+										</PathLinkInSequence>
+										<PathLinkInSequence version="any" id="naptPoi:8100OPK_N2_l07-7">
+											<Description>from bridge 4 to Stadium vicinity </Description>
+											<PathLinkRef version="any" ref="naptPoi:8100OPK_SPC_4_to_pj3"/>
+											<Reverse>false</Reverse>
+											<Heading>left</Heading>
+											<Transition>level</Transition>
+										</PathLinkInSequence>
+										<PathLinkInSequence version="any" id="naptPoi:8100OPK_N2_l08-8">
+											<Description>quatics vicinity to bridge 4</Description>
+											<PathLinkRef version="any" ref="naptPoi:8100OPK_pj11_to_SPC_4"/>
+											<Reverse>false</Reverse>
+											<Heading>forward</Heading>
+											<Transition>level</Transition>
+										</PathLinkInSequence>
+										<PathLinkInSequence version="any" id="naptPoi:8100OPK_N2_l09-9">
 											<Description>Entrance to aquatics vicinity</Description>
+											<PathLinkRef version="any" ref="naptPoi:8100OPK_E1_to_pj1"/>
 											<Reverse>false</Reverse>
 											<Heading>forward</Heading>
 											<Transition>level</Transition>
@@ -4099,7 +4127,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.9o_OPK-E1_to_V9-E1_ac1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.9o_OPK-E1_to_V9-E1_ac1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -4138,7 +4166,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.10o_OPK-E1_to_V10-E1_ac1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.10o_OPK-E1_to_V10-E1_ac1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -4176,7 +4204,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.11o_OPK-E1_to_V11-E1_ac1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.11o_OPK-E1_to_V11-E1_ac1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -4216,7 +4244,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 							<Image>http://www.2012Londonolympics.org/park.gif.gif</Image>
 							<AccessModes>foot</AccessModes>
 							<alternativeNames>
-								<AlternativeName order="1" id="naptPoi:8100OPK_V1_STDM">
+								<AlternativeName id="naptPoi:8100OPK_V1_STDM-1">
 									<NameType>translation</NameType>
 									<TypeOfName>Title</TypeOfName>
 									<Name lang="fr">Stade Olympic</Name>
@@ -4228,6 +4256,52 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 							<Lighting>wellLit</Lighting>
 							<PersonCapacity>80000</PersonCapacity>
 							<ParentSiteRef version="any" ref="naptPoi:8100OPK"/>
+							<levels>
+								<Level version="any" id="naptPoi:8100OPK_V1_STDM-L1">
+									<Name>Level 1</Name>
+									<PublicUse>true</PublicUse>
+								</Level>
+								<Level version="any" id="naptPoi:8100OPK_V1_STDM-L2">
+									<Name>Level 2</Name>
+									<PublicUse>true</PublicUse>
+								</Level>
+								<Level version="any" id="naptPoi:8100OPK_V1_STDM-L3">
+									<Name>Level 3</Name>
+									<PublicUse>true</PublicUse>
+								</Level>
+							</levels>
+							<siteStructures>
+								<SiteStructure version="any" id="naptPoi:8100OPK_V1_STDM-S1">
+									<Name>East Access Block</Name>
+									<levelsInStructure>
+										<LevelInStructure version="any" id="naptPoi:8100OPK_V1_STDM-S1-1">
+											<FloorLabel>1</FloorLabel>
+											<LevelRef ref="naptPoi:8100OPK_V1_STDM-L1"/>
+										</LevelInStructure>
+										<LevelInStructure version="any" id="naptPoi:8100OPK_V1_STDM-S1-2">
+											<FloorLabel>2</FloorLabel>
+											<LevelRef ref="naptPoi:8100OPK_V1_STDM-L1"/>
+										</LevelInStructure>
+										<LevelInStructure version="any" id="naptPoi:8100OPK_V1_STDM-S1-3">
+											<FloorLabel>3</FloorLabel>
+											<LevelRef ref="naptPoi:8100OPK_V1_STDM-L1"/>
+										</LevelInStructure>
+									</levelsInStructure>
+								</SiteStructure>
+								<SiteStructure version="any" id="naptPoi:8100OPK_V1_STDM-S2">
+									<Name>West  Access Block</Name>
+									<levelsInStructure>
+										<LevelInStructure version="any" id="naptPoi:8100OPK_V1_STDM-S2-1">
+											<FloorLabel>1</FloorLabel>
+											<LevelRef ref="naptPoi:8100OPK_V1_STDM-L1"/>
+										</LevelInStructure>
+										<LevelInStructure version="any" id="naptPoi:8100OPK_V1_STDM-S2-2">
+											<FloorLabel>2</FloorLabel>
+											<LevelRef ref="naptPoi:8100OPK_V1_STDM-L1"/>
+										</LevelInStructure>
+									</levelsInStructure>
+								</SiteStructure>
+							</siteStructures>
 						</PointOfInterest>
 						<PointOfInterest version="any" id="naptPoi:8100OPK_V2_HOCK">
 							<Name>Hockey Centre</Name>
@@ -4241,7 +4315,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 							<Image>http://www.2012Londonolympics.org/park.gif.gif</Image>
 							<AccessModes>foot</AccessModes>
 							<alternativeNames>
-								<AlternativeName order="1" id="naptPoi:8100OPK_V2_HOCK">
+								<AlternativeName id="naptPoi:8100OPK_V2_HOCK-1">
 									<NameType>translation</NameType>
 									<TypeOfName>Title</TypeOfName>
 									<Name lang="fr">Centre de Hockey</Name>
@@ -4288,7 +4362,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 							<Image>http://www.2012Londonolympics.org/park.gif.gif</Image>
 							<AccessModes>foot</AccessModes>
 							<alternativeNames>
-								<AlternativeName order="1" id="naptPoi:8100OPK_V3_HAND">
+								<AlternativeName id="naptPoi:8100OPK_V3_HAND-1">
 									<NameType>translation</NameType>
 									<TypeOfName>Title</TypeOfName>
 									<Name lang="fr">Centre de Handball</Name>
@@ -4325,7 +4399,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 							<Image>http://www.2012Londonolympics.org/park.gif.gif</Image>
 							<AccessModes>foot</AccessModes>
 							<alternativeNames>
-								<AlternativeName order="1" id="naptPoi:8100OPK_V4_AQUA">
+								<AlternativeName id="naptPoi:8100OPK_V4_AQUA-1">
 									<NameType>translation</NameType>
 									<TypeOfName>Title</TypeOfName>
 									<Name lang="fr">Centre Aquatique</Name>
@@ -4441,7 +4515,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 							<Image>http://www.2012Londonolympics.org/park.gif.gif</Image>
 							<AccessModes>foot</AccessModes>
 							<alternativeNames>
-								<AlternativeName order="1" id="naptPoi:8100OPK_V7_VELO">
+								<AlternativeName id="naptPoi:8100OPK_V7_VELO-1">
 									<NameType>translation</NameType>
 									<TypeOfName>Title</TypeOfName>
 									<Name lang="fr">Vewlodrome</Name>
@@ -4478,7 +4552,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 							<Image>http://www.2012Londonolympics.org/park.gif.gif</Image>
 							<AccessModes>foot</AccessModes>
 							<alternativeNames>
-								<AlternativeName order="1" id="naptPoi:8100OPK_V8_BMXT">
+								<AlternativeName id="naptPoi:8100OPK_V8_BMXT-1">
 									<NameType>translation</NameType>
 									<TypeOfName>Title</TypeOfName>
 									<Name lang="fr">Circuit BMX</Name>
@@ -4497,7 +4571,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 										<TypeOfZoneRef version="any" ref="napt:type_of_zone@PIE"/>
 									</types>
 									<checkConstraints>
-										<CheckConstraint version="any" id="naptPoi:8100OPK_V8_BMXT_E1_C1" order="1">
+										<CheckConstraint version="any" id="naptPoi:8100OPK_V8_BMXT_E1_C1-1">
 											<Name>Entrance to BMX gate - incoming</Name>
 											<CheckDirection>forwards</CheckDirection>
 											<CheckProcess>ingress</CheckProcess>
@@ -4505,7 +4579,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 											<Congestion>queue</Congestion>
 											<delays>
 												<!-- == Delays on  Very Busy Days ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_V8_BMXT_E1_C1_Del_VB_i" order="1">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_V8_BMXT_E1_C1_Del_VB_i-1">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Very_Busy_ingress"/>
 													</validityConditions>
@@ -4513,7 +4587,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT15M</AverageDelay>
 													<MaximumLikelyDelay>PT25M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_V8_BMXT_E1_C1_Del_VB_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_V8_BMXT_E1_C1_Del_VB_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Very_Busy_other"/>
 													</validityConditions>
@@ -4522,7 +4596,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<MaximumLikelyDelay>PT6M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
 												<!-- == Delays on   Busy Days ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_V8_BMXT_E1_C1_Del_B_i" order="1">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_V8_BMXT_E1_C1_Del_B_i-1">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Busy_ingress"/>
 													</validityConditions>
@@ -4530,7 +4604,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT10M</AverageDelay>
 													<MaximumLikelyDelay>PT20M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_V8_BMXT_E1_C1_Del_B_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_V8_BMXT_E1_C1_Del_B_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Busy_other"/>
 													</validityConditions>
@@ -4539,7 +4613,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<MaximumLikelyDelay>PT6M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
 												<!-- == Delays on  NormalDays ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_V8_BMXT_E1_C1_Del_N_i" order="1">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_V8_BMXT_E1_C1_Del_N_i-1">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Normal_ingress"/>
 													</validityConditions>
@@ -4547,7 +4621,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT3M</AverageDelay>
 													<MaximumLikelyDelay>PT6M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_V8_BMXT_E1_C1_Del_N_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_V8_BMXT_E1_C1_Del_N_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Normal_other"/>
 													</validityConditions>
@@ -4557,7 +4631,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 												</CheckConstraintDelay>
 											</delays>
 										</CheckConstraint>
-										<CheckConstraint version="any" id="naptPoi:8100OPK_V8_BMXT_E1_C2" order="1">
+										<CheckConstraint version="any" id="naptPoi:8100OPK_V8_BMXT_E1_C2-1">
 											<Name>Entrance to Security gate - Going Out</Name>
 											<CheckDirection>backwards</CheckDirection>
 											<CheckProcess>egress</CheckProcess>
@@ -4565,7 +4639,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 											<Congestion>queue</Congestion>
 											<delays>
 												<!-- == Delays on  Very Busy Days ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_V8_BMXT_E1_C2_Del_VB_e" order="3">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_V8_BMXT_E1_C2_Del_VB_e-3">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Very_Busy_egress"/>
 													</validityConditions>
@@ -4573,7 +4647,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT10M</AverageDelay>
 													<MaximumLikelyDelay>PT20M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_V8_BMXT_E1_C2_Del_VB_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_V8_BMXT_E1_C2_Del_VB_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Very_Busy_other"/>
 													</validityConditions>
@@ -4582,7 +4656,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<MaximumLikelyDelay>PT6M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
 												<!-- == Delays on   Busy Days ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_V8_BMXT_E1_C2_Del_B_e" order="3">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_V8_BMXT_E1_C2_Del_B_e-3">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Busy_egress"/>
 													</validityConditions>
@@ -4590,7 +4664,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT10M</AverageDelay>
 													<MaximumLikelyDelay>PT20M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_V8_BMXT_E1_C2_Del_B_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_V8_BMXT_E1_C2_Del_B_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Busy_other"/>
 													</validityConditions>
@@ -4599,7 +4673,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<MaximumLikelyDelay>PT6M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
 												<!-- == Delays on  NormalDays ==   -->
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_V8_BMXT_E1_C2_Del_N_e" order="3">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_V8_BMXT_E1_C2_Del_N_e-3">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Normal_egress"/>
 													</validityConditions>
@@ -4607,7 +4681,7 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 													<AverageDelay>PT3M</AverageDelay>
 													<MaximumLikelyDelay>PT6M</MaximumLikelyDelay>
 												</CheckConstraintDelay>
-												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_V8_BMXT_E1_C2_Del_N_o" order="99">
+												<CheckConstraintDelay version="any" id="naptPoi:8100OPK_V8_BMXT_E1_C2_Del_N_o-99">
 													<validityConditions>
 														<AvailabilityConditionRef version="any" ref="oda:Avl_Normal_other"/>
 													</validityConditions>
@@ -4738,6 +4812,22 @@ It is based on the 2012 London Olympic Park. See accompanying paper for diagram
 							<ParentSiteRef version="any" ref="naptPoi:8100OPK"/>
 						</PointOfInterest>
 					</pointsOfInterest>
+					<tariffZones>
+						<TariffZone version="any" id="Zone3">
+							<ShortName>Zone3</ShortName>
+						</TariffZone>
+						<TariffZone version="any" id="Zone4">
+							<ShortName>Zone4</ShortName>
+						</TariffZone>
+					</tariffZones>
+					<groupsOfTariffZones>
+						<GroupOfTariffZones version="any" id="lul_zones">
+							<members>
+								<TariffZoneRef version="any" ref="Zone3"/>
+								<TariffZoneRef version="any" ref="Zone4"/>
+							</members>
+						</GroupOfTariffZones>
+					</groupsOfTariffZones>
 				</SiteFrame>
 				<!-- - ==== UK Code values used === -->
 				<ResourceFrame version="001" created="2011-02-23T10:00:00Z" id="nptg:Types">

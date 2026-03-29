@@ -30,12 +30,17 @@
 							<roles>
 								<ResponsibilityRoleAssignment id="ch:1:Authority:1:" version="any">
 									<DataRoleType>creates</DataRoleType>
+<<<<<<< HEAD
 									<StakeholderRoleType>Planning</StakeholderRoleType>
+=======
+									<StakeholderRoleType>planning</StakeholderRoleType>
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 									<ResponsibleOrganisationRef ref="ch:1:Authority:1:" version="any"/>
 								</ResponsibilityRoleAssignment>
 							</roles>
 						</ResponsibilitySet>
 						<ResponsibilitySet id="ch:1:ResponsibilitySet:SBB_SBB:" version="any">
+<<<<<<< HEAD
 							<Name lang="de">Schweizerische Bundesbahnen SBB</Name>
 							<PrivateCode>SBB</PrivateCode>
 							<roles>
@@ -45,6 +50,19 @@
 								</ResponsibilityRoleAssignment>
 								<ResponsibilityRoleAssignment id="ch:1:ResponsibilityRoleAssignment:SBB_SBB:2:" version="any">
 									<StakeholderRoleType>Operation</StakeholderRoleType>
+=======
+							<privateCodes>
+								<PrivateCode>SBB</PrivateCode>
+							</privateCodes>
+							<Name lang="de">Schweizerische Bundesbahnen SBB</Name>
+							<roles>
+								<ResponsibilityRoleAssignment id="ch:1:ResponsibilityRoleAssignment:SBB_SBB:1:" version="any">
+									<StakeholderRoleType>entityLegalOwnership</StakeholderRoleType>
+									<ResponsibleOrganisationRef ref="ch:1:Operator:11:" version="any"/>
+								</ResponsibilityRoleAssignment>
+								<ResponsibilityRoleAssignment id="ch:1:ResponsibilityRoleAssignment:SBB_SBB:2:" version="any">
+									<StakeholderRoleType>operation</StakeholderRoleType>
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 									<ResponsibleOrganisationRef ref="ch:1:Operator:11:" version="any"/>
 								</ResponsibilityRoleAssignment>
 							</roles>
@@ -63,7 +81,13 @@
 					</typesOfValue>
 					<organisations>
 						<Operator id="ch:1:Operator:11:" version="any">
+<<<<<<< HEAD
 							<PrivateCode>11</PrivateCode>
+=======
+							<privateCodes>
+								<PrivateCode>11</PrivateCode>
+							</privateCodes>
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 							<Name lang="de">Schweizerische Bundesbahnen SBB</Name>
 							<ShortName lang="de">SBB</ShortName>
 						</Operator>
@@ -75,9 +99,17 @@
 					</organisations>
 					<operationalContexts>
 						<OperationalContext id="ch:1:OperatingBranch:91:" version="any">
+<<<<<<< HEAD
 							<Name lang="de">Schiene</Name>
 							<ShortName lang="de">91</ShortName>
 							<PrivateCode>91</PrivateCode>
+=======
+							<privateCodes>
+								<PrivateCode>91</PrivateCode>
+							</privateCodes>
+							<Name lang="de">Schiene</Name>
+							<ShortName lang="de">91</ShortName>
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 						</OperationalContext>
 					</operationalContexts>
 					<!--ToDo: Details aus Erfassung nachtragen -->
@@ -145,7 +177,11 @@
 										<Name>Wagen 1</Name>
 										<TrainElementType>engine</TrainElementType>
 										<FareClasses>secondClass</FareClasses>
+<<<<<<< HEAD
 										<PassengerCapacity>
+=======
+										<PassengerCapacity id="RABe-525-1" version="any">
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 											<SeatingCapacity>46</SeatingCapacity>
 											<StandingCapacity>10</StandingCapacity>
 											<WheelchairPlaceCapacity>2</WheelchairPlaceCapacity>
@@ -162,7 +198,11 @@
 										<Name>Wagen 2</Name>
 										<TrainElementType>carriage</TrainElementType>
 										<FareClasses>secondClass</FareClasses>
+<<<<<<< HEAD
 										<PassengerCapacity>
+=======
+										<PassengerCapacity id="RABe-525-2" version="any">
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 											<SeatingCapacity>45</SeatingCapacity>
 											<StandingCapacity>20</StandingCapacity>
 											<WheelchairPlaceCapacity>0</WheelchairPlaceCapacity>
@@ -179,7 +219,11 @@
 										<Name>Wagen 3</Name>
 										<TrainElementType>carriage</TrainElementType>
 										<FareClasses>firstClass secondClass</FareClasses>
+<<<<<<< HEAD
 										<PassengerCapacity>
+=======
+										<PassengerCapacity id="RABe-525-3" version="any">
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 											<SeatingCapacity>38</SeatingCapacity>
 											<StandingCapacity>20</StandingCapacity>
 											<WheelchairPlaceCapacity>0</WheelchairPlaceCapacity>
@@ -196,7 +240,11 @@
 										<Name>Wagen 4</Name>
 										<TrainElementType>engine</TrainElementType>
 										<FareClasses>secondClass</FareClasses>
+<<<<<<< HEAD
 										<PassengerCapacity>
+=======
+										<PassengerCapacity id="RABe-525-4" version="any">
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 											<SeatingCapacity>46</SeatingCapacity>
 											<StandingCapacity>10</StandingCapacity>
 											<WheelchairPlaceCapacity>0</WheelchairPlaceCapacity>
@@ -283,11 +331,21 @@
 									<Value>8509000</Value>
 								</KeyValue>
 							</keyList>
+<<<<<<< HEAD
 							<Name lang="de">Chur</Name>
 							<ShortName lang="de">CH</ShortName>
 							<PrivateCode>8509000</PrivateCode>
 							<TopographicPlaceRef ref="ch:1:TopographicPlace:8b930b7b-059b-4d0e-8db1-6512f12bc1b9:" version="any"/>
 							<ParentSiteRef ref="ch:1:StopPlace:8509000:" version="any"/>
+=======
+							<privateCodes>
+								<PrivateCode>8509000</PrivateCode>
+							</privateCodes>
+							<Name lang="de">Chur</Name>
+							<ShortName lang="de">CH</ShortName>
+							<TopographicPlaceRef version="any" ref="ch:1:TopographicPlace:8b930b7b-059b-4d0e-8db1-6512f12bc1b9:"/>
+							<ParentSiteRef version="any" ref="ch:1:StopPlace:8509000:"/>
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 							<levels>
 								<Level id="ch:1:Level:8509000:-1" version="any">
 									<Name>Basement</Name>
@@ -303,10 +361,19 @@
 								</Level>
 							</levels>
 							<entrances>
+<<<<<<< HEAD
 								<Entrance id="ch:1:Entrance:8509000:80:" version="any">
 									<Name lang="de">Zugang Gürtel</Name>
 									<ShortName lang="de">ZUG</ShortName>
 									<PrivateCode>80</PrivateCode>
+=======
+								<StopPlaceEntrance id="ch:1:StopPlaceEntrance:8509000:80:" version="any">
+									<privateCodes>
+										<PrivateCode>80</PrivateCode>
+									</privateCodes>
+									<Name lang="de">Zugang Gürtel</Name>
+									<ShortName lang="de">ZUG</ShortName>
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 									<LevelRef ref="ch:1:Level:8509000:0" version="any"/>
 									<placeEquipments>
 										<EntranceEquipment id="ch:1:EntranceEquipment:8509000:80:" version="any">
@@ -314,6 +381,7 @@
 											<WheelchairPassable>true</WheelchairPassable>
 										</EntranceEquipment>
 									</placeEquipments>
+<<<<<<< HEAD
 								</Entrance>
 								<Entrance id="ch:1:Entrance:8509000:82:" version="any">
 									<Name lang="de">Zugang Bahnhofsplatz</Name>
@@ -333,6 +401,33 @@
 									<PrivateCode>84</PrivateCode>
 									<LevelRef ref="ch:1:Level:8509000:0" version="any"/>
 								</Entrance>
+=======
+								</StopPlaceEntrance>
+								<StopPlaceEntrance id="ch:1:StopPlaceEntrance:8509000:82:" version="any">
+									<privateCodes>
+										<PrivateCode>82</PrivateCode>
+									</privateCodes>
+									<Name lang="de">Zugang Bahnhofsplatz</Name>
+									<ShortName lang="de">ZuB</ShortName>
+									<LevelRef ref="ch:1:Level:8509000:0" version="any"/>
+								</StopPlaceEntrance>
+								<StopPlaceEntrance id="ch:1:StopPlaceEntrance:8509000:83:" version="any">
+									<privateCodes>
+										<PrivateCode>83</PrivateCode>
+									</privateCodes>
+									<Name lang="de">Zugang Postauto</Name>
+									<ShortName lang="de">ZuP</ShortName>
+									<LevelRef ref="ch:1:Level:8509000:1" version="any"/>
+								</StopPlaceEntrance>
+								<StopPlaceEntrance id="ch:1:StopPlaceEntrance:8509000:84:" version="any">
+									<privateCodes>
+										<PrivateCode>84</PrivateCode>
+									</privateCodes>
+									<Name lang="de">Zu Bahnsteig 1</Name>
+									<ShortName lang="de">ZuB1</ShortName>
+									<LevelRef ref="ch:1:Level:8509000:0" version="any"/>
+								</StopPlaceEntrance>
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 							</entrances>
 							<placeEquipments>
 								<HelpPointEquipmentRef ref=""/>
@@ -345,97 +440,193 @@
 									<QuayType>railPlatform</QuayType>
 								</Quay>
 								<Quay id="ch:1:Quay:8509000:3:" version="any">
+<<<<<<< HEAD
 									<Name lang="de">Bahnsteig 3</Name>
 									<ShortName lang="de">BS3</ShortName>
 									<PrivateCode>3</PrivateCode>
+=======
+									<privateCodes>
+										<PrivateCode>3</PrivateCode>
+									</privateCodes>
+									<Name lang="de">Bahnsteig 3</Name>
+									<ShortName lang="de">BS3</ShortName>
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 									<LevelRef ref="ch:1:Level:8509000:0" version="any"/>
 									<PublicCode>BS3</PublicCode>
 									<QuayType>railPlatform</QuayType>
 								</Quay>
 								<Quay id="ch:1:Quay:8509000:4:" version="any">
+<<<<<<< HEAD
 									<Name lang="de">Bahnsteig 4</Name>
 									<ShortName lang="de">BS4</ShortName>
 									<PrivateCode>4</PrivateCode>
+=======
+									<privateCodes>
+										<PrivateCode>4</PrivateCode>
+									</privateCodes>
+									<Name lang="de">Bahnsteig 4</Name>
+									<ShortName lang="de">BS4</ShortName>
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 									<LevelRef ref="ch:1:Level:8509000:0" version="any"/>
 									<PublicCode>BS4</PublicCode>
 									<QuayType>railPlatform</QuayType>
 								</Quay>
 								<Quay id="ch:1:Quay:8509000:5:" version="any">
+<<<<<<< HEAD
 									<Name lang="de">Bahnsteig 5</Name>
 									<ShortName lang="de">BS5</ShortName>
 									<PrivateCode>5</PrivateCode>
+=======
+									<privateCodes>
+										<PrivateCode>5</PrivateCode>
+									</privateCodes>
+									<Name lang="de">Bahnsteig 5</Name>
+									<ShortName lang="de">BS5</ShortName>
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 									<LevelRef ref="ch:1:Level:8509000:0" version="any"/>
 									<PublicCode>BS5</PublicCode>
 									<QuayType>railPlatform</QuayType>
 								</Quay>
 								<Quay id="ch:1:Quay:8509000:6:" version="any">
+<<<<<<< HEAD
 									<Name lang="de">Zug1</Name>
 									<ShortName lang="de">Z1</ShortName>
 									<PrivateCode>6</PrivateCode>
+=======
+									<privateCodes>
+										<PrivateCode>6</PrivateCode>
+									</privateCodes>
+									<Name lang="de">Zug1</Name>
+									<ShortName lang="de">Z1</ShortName>
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 									<LevelRef ref="ch:1:Level:8509000:0" version="any"/>
 									<PublicCode>Z1</PublicCode>
 									<QuayType>railPlatform</QuayType>
 								</Quay>
 								<Quay id="ch:1:Quay:8509000:7:" version="any">
+<<<<<<< HEAD
 									<Name lang="de">Zug 2</Name>
 									<ShortName lang="de">Z2</ShortName>
 									<PrivateCode>7</PrivateCode>
+=======
+									<privateCodes>
+										<PrivateCode>7</PrivateCode>
+									</privateCodes>
+									<Name lang="de">Zug 2</Name>
+									<ShortName lang="de">Z2</ShortName>
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 									<LevelRef ref="ch:1:Level:8509000:0" version="any"/>
 									<PublicCode>Z2</PublicCode>
 									<QuayType>railPlatform</QuayType>
 								</Quay>
 								<Quay id="ch:1:Quay:8509000:70:" version="any">
+<<<<<<< HEAD
 									<Name lang="de">Zwischengeschoss</Name>
 									<ShortName lang="de">ZW</ShortName>
 									<PrivateCode>70</PrivateCode>
+=======
+									<privateCodes>
+										<PrivateCode>70</PrivateCode>
+									</privateCodes>
+									<Name lang="de">Zwischengeschoss</Name>
+									<ShortName lang="de">ZW</ShortName>
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 									<LevelRef ref="ch:1:Level:8509000:-1" version="any"/>
 									<PublicCode>ZW</PublicCode>
 									<QuayType>other</QuayType>
 								</Quay>
 								<Quay id="ch:1:Quay:8509000:71:" version="any">
+<<<<<<< HEAD
 									<Name lang="de">Zw Brücke</Name>
 									<ShortName lang="de">ZWB</ShortName>
 									<PrivateCode>71</PrivateCode>
+=======
+									<privateCodes>
+										<PrivateCode>71</PrivateCode>
+									</privateCodes>
+									<Name lang="de">Zw Brücke</Name>
+									<ShortName lang="de">ZWB</ShortName>
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 									<LevelRef ref="ch:1:Level:8509000:1" version="any"/>
 									<PublicCode>ZWB</PublicCode>
 									<QuayType>other</QuayType>
 								</Quay>
 								<Quay id="ch:1:Quay:8509000:72:" version="any">
+<<<<<<< HEAD
 									<Name lang="de">ZW Bahnsteig 1</Name>
 									<ShortName lang="de">ZW1</ShortName>
 									<PrivateCode>72</PrivateCode>
+=======
+									<privateCodes>
+										<PrivateCode>72</PrivateCode>
+									</privateCodes>
+									<Name lang="de">ZW Bahnsteig 1</Name>
+									<ShortName lang="de">ZW1</ShortName>
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 									<LevelRef ref="ch:1:Level:8509000:-1" version="any"/>
 									<PublicCode>ZW1</PublicCode>
 									<QuayType>other</QuayType>
 								</Quay>
 								<Quay id="ch:1:Quay:8509000:80:" version="any">
+<<<<<<< HEAD
 									<Name lang="de">Zugang Gürtel</Name>
 									<ShortName lang="de">ZUG</ShortName>
 									<PrivateCode>80</PrivateCode>
+=======
+									<privateCodes>
+										<PrivateCode>80</PrivateCode>
+									</privateCodes>
+									<Name lang="de">Zugang Gürtel</Name>
+									<ShortName lang="de">ZUG</ShortName>
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 									<LevelRef ref="ch:1:Level:8509000:0" version="any"/>
 									<PublicCode>ZUG</PublicCode>
 									<QuayType>other</QuayType>
 								</Quay>
 								<Quay id="ch:1:Quay:8509000:82:" version="any">
+<<<<<<< HEAD
 									<Name lang="de">Zugang Bahnhofsplatz</Name>
 									<ShortName lang="de">ZuB</ShortName>
 									<PrivateCode>82</PrivateCode>
+=======
+									<privateCodes>
+										<PrivateCode>82</PrivateCode>
+									</privateCodes>
+									<Name lang="de">Zugang Bahnhofsplatz</Name>
+									<ShortName lang="de">ZuB</ShortName>
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 									<LevelRef ref="ch:1:Level:8509000:0" version="any"/>
 									<PublicCode>ZuB</PublicCode>
 									<QuayType>other</QuayType>
 								</Quay>
 								<Quay id="ch:1:Quay:8509000:83:" version="any">
+<<<<<<< HEAD
 									<Name lang="de">Zugang Postauto</Name>
 									<ShortName lang="de">ZuP</ShortName>
 									<PrivateCode>83</PrivateCode>
+=======
+									<privateCodes>
+										<PrivateCode>83</PrivateCode>
+									</privateCodes>
+									<Name lang="de">Zugang Postauto</Name>
+									<ShortName lang="de">ZuP</ShortName>
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 									<LevelRef ref="ch:1:Level:8509000:1" version="any"/>
 									<PublicCode>ZuP</PublicCode>
 									<QuayType>other</QuayType>
 								</Quay>
 								<Quay id="ch:1:Quay:8509000:84:" version="any">
+<<<<<<< HEAD
 									<Name lang="de">Zu Bahnsteig 1</Name>
 									<ShortName lang="de">ZuB1</ShortName>
 									<PrivateCode>84</PrivateCode>
+=======
+									<privateCodes>
+										<PrivateCode>84</PrivateCode>
+									</privateCodes>
+									<Name lang="de">Zu Bahnsteig 1</Name>
+									<ShortName lang="de">ZuB1</ShortName>
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 									<LevelRef ref="ch:1:Level:8509000:0" version="any"/>
 									<PublicCode>ZuB1</PublicCode>
 									<QuayType>other</QuayType>
@@ -571,10 +762,19 @@
 									<Value>8575112</Value>
 								</KeyValue>
 							</keyList>
+<<<<<<< HEAD
 							<Name lang="de">Chur, Postautostation</Name>
 							<PrivateCode>8575112</PrivateCode>
 							<TopographicPlaceRef ref="ch:1:TopographicPlace:8b930b7b-059b-4d0e-8db1-6512f12bc1b9:" version="any"/>
 							<ParentSiteRef ref="ch:1:StopPlace:8575112:" version="any"/>
+=======
+							<privateCodes>
+								<PrivateCode>8575112</PrivateCode>
+							</privateCodes>
+							<Name lang="de">Chur, Postautostation</Name>
+							<TopographicPlaceRef version="any" ref="ch:1:TopographicPlace:8b930b7b-059b-4d0e-8db1-6512f12bc1b9:"/>
+							<ParentSiteRef version="any" ref="ch:1:StopPlace:8575112:"/>
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 							<levels>
 								<Level id="ch:1:Level:8575112:0" version="any">
 									<Name>Ground</Name>
@@ -583,7 +783,13 @@
 							</levels>
 							<quays>
 								<Quay id="ch:1:Quay:8575112::" version="any">
+<<<<<<< HEAD
 									<PrivateCode>0</PrivateCode>
+=======
+									<privateCodes>
+										<PrivateCode>0</PrivateCode>
+									</privateCodes>
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 									<LevelRef ref="ch:1:Level:8575112:0" version="any"/>
 									<QuayType>other</QuayType>
 								</Quay>
@@ -605,11 +811,21 @@
 									<Value>8581044</Value>
 								</KeyValue>
 							</keyList>
+<<<<<<< HEAD
 							<Name lang="de">Chur, Bahnhofplatz</Name>
 							<ShortName lang="de">CHBA</ShortName>
 							<PrivateCode>8581044</PrivateCode>
 							<TopographicPlaceRef ref="ch:1:TopographicPlace:8b930b7b-059b-4d0e-8db1-6512f12bc1b9:" version="any"/>
 							<ParentSiteRef ref="ch:1:StopPlace:8581044:" version="any"/>
+=======
+							<privateCodes>
+								<PrivateCode>8581044</PrivateCode>
+							</privateCodes>
+							<Name lang="de">Chur, Bahnhofplatz</Name>
+							<ShortName lang="de">CHBA</ShortName>
+							<TopographicPlaceRef version="any" ref="ch:1:TopographicPlace:8b930b7b-059b-4d0e-8db1-6512f12bc1b9:"/>
+							<ParentSiteRef version="any" ref="ch:1:StopPlace:8581044:"/>
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 							<levels>
 								<Level id="ch:1:Level:8581044:0" version="any">
 									<Name>Ground</Name>
@@ -618,9 +834,17 @@
 							</levels>
 							<quays>
 								<Quay id="ch:1:Quay:8581044:1:" version="any">
+<<<<<<< HEAD
 									<Name lang="de">Bahnsteig 1</Name>
 									<ShortName lang="de">BS1</ShortName>
 									<PrivateCode>1</PrivateCode>
+=======
+									<privateCodes>
+										<PrivateCode>1</PrivateCode>
+									</privateCodes>
+									<Name lang="de">Bahnsteig 1</Name>
+									<ShortName lang="de">BS1</ShortName>
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 									<LevelRef ref="ch:1:Level:8581044:0" version="any"/>
 									<PublicCode>BS1</PublicCode>
 									<QuayType>other</QuayType>
@@ -674,8 +898,15 @@
 									<Value>49000817</Value>
 								</KeyValue>
 							</keyList>
+<<<<<<< HEAD
 							<Name lang="de">Bern</Name>
 							<PrivateCode>7000</PrivateCode>
+=======
+							<privateCodes>
+								<PrivateCode>7000</PrivateCode>
+							</privateCodes>
+							<Name lang="de">Bern</Name>
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 							<Centroid>
 								<Location>
 									<Longitude>7.4391195476977394</Longitude>
@@ -790,6 +1021,7 @@
 						<PassengerStopAssignment id="ch:1:PassengerStopAssignment:8507000_0_Gen:A" version="any" order="2">
 							<ScheduledStopPointRef ref="ch:1:ScheduledStopPoint:8507000::1:A" version="any"/>
 							<StopPlaceRef ref="ch:1:StopPlace:8507000:" version="any"/>
+<<<<<<< HEAD
 							<trainElements>
 								<TrainStopAssignment id="ch:1:TrainStopAssignement:1" version="any" order="1">
 									<TrainRef ref="S5-Bern-Payerne" version="any"/>
@@ -800,6 +1032,18 @@
 									<TrainComponentRef ref="RABe-525-2" version="any"/>
 								</TrainStopAssignment>
 							</trainElements>
+=======
+							<passengerBoardingPositionAssignments>
+								<PassengerBoardingPositionAssignment id="ch:1:TrainStopAssignement:1" version="any" order="1">
+									<TrainRef ref="S5-Bern-Payerne" version="any"/>
+									<TrainComponentRef ref="RABe-525-1" version="any"/>
+								</PassengerBoardingPositionAssignment>
+								<PassengerBoardingPositionAssignment id="ch:1:TrainStopAssignement:2" version="any" order="1">
+									<TrainRef ref="S5-Bern-Payerne" version="any"/>
+									<TrainComponentRef ref="RABe-525-2" version="any"/>
+								</PassengerBoardingPositionAssignment>
+							</passengerBoardingPositionAssignments>
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 						</PassengerStopAssignment>
 						<PassengerStopAssignment id="ch:1:PassengerStopAssignment:8992506:" version="any" order="3">
 							<ScheduledStopPointRef ref="ch:1:ScheduledStopPoint:8992506:" version="any"/>
@@ -814,9 +1058,17 @@
 					</stopAssignments>
 					<journeyPatterns>
 						<ServiceJourneyPattern id="ch:1:JourneyPattern:91YYY_.j21100201:" version="any">
+<<<<<<< HEAD
 							<Name lang="de">1</Name>
 							<ShortName lang="de">1</ShortName>
 							<PrivateCode>1</PrivateCode>
+=======
+							<privateCodes>
+								<PrivateCode>1</PrivateCode>
+							</privateCodes>
+							<Name lang="de">1</Name>
+							<ShortName lang="de">1</ShortName>
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 							<DirectionType>outbound</DirectionType>
 							<pointsInSequence>
 								<StopPointInJourneyPattern id="ch:1:StopPointInJourneyPattern:91YYY_.j21-1-0020101:" version="any" order="1">
@@ -852,9 +1104,17 @@
 							<ServiceJourneyPatternType>passenger</ServiceJourneyPatternType>
 						</ServiceJourneyPattern>
 						<ServiceJourneyPattern id="ch:1:JourneyPattern:91YYY_.j21100301:" version="any">
+<<<<<<< HEAD
 							<Name lang="de">1</Name>
 							<ShortName lang="de">1</ShortName>
 							<PrivateCode>1</PrivateCode>
+=======
+							<privateCodes>
+								<PrivateCode>1</PrivateCode>
+							</privateCodes>
+							<Name lang="de">1</Name>
+							<ShortName lang="de">1</ShortName>
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 							<DirectionType>inbound</DirectionType>
 							<pointsInSequence>
 								<StopPointInJourneyPattern id="ch:1:StopPointInJourneyPattern:91YYY_.j21-1-0030101:" version="any" order="1">
@@ -2375,9 +2635,17 @@
 					<TypeOfFrameRef ref="epip:EU_PI_TIMETABLE"/>
 					<vehicleJourneys>
 						<ServiceJourney id="ch:1:ServiceJourney:91YYY-SBB-1-1-28800:TA:" version="1">
+<<<<<<< HEAD
 							<PrivateCode>1</PrivateCode>
 							<TypeOfProductCategoryRef ref="ch:1:TypeOfProductCategory:B:" version="any"/>
 							<TypeOfServiceRef ref="ch:1:TypeOfService:1:" version="any"/>
+=======
+							<privateCodes>
+								<PrivateCode>1</PrivateCode>
+							</privateCodes>
+							<TypeOfProductCategoryRef version="any" ref="ch:1:TypeOfProductCategory:B:"/>
+							<TypeOfServiceRef version="any" ref="ch:1:TypeOfService:1:"/>
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 							<DepartureTime>08:00:00</DepartureTime>
 							<dayTypes>
 								<DayTypeRef ref="ch:1:DayType:TA_1:" version="any"/>
@@ -2389,25 +2657,45 @@
 								<TrainNumberRef ref="ch:1:TrainNumber:10:" version="any"/>
 							</trainNumbers>
 							<passingTimes>
+<<<<<<< HEAD
 								<TimetabledPassingTime version="any">
 									<PointInJourneyPatternRef ref="ch:1:StopPointInJourneyPattern:91YYY_.j21-1-0020101:" version="any"/>
 									<DepartureTime>08:00:00</DepartureTime>
 								</TimetabledPassingTime>
 								<TimetabledPassingTime version="any">
+=======
+								<TimetabledPassingTime version="any" id="ch:1:TimetabledPassingTime:10:91YYY_.j21-1-0020101">
+									<PointInJourneyPatternRef ref="ch:1:StopPointInJourneyPattern:91YYY_.j21-1-0020101:" version="any"/>
+									<DepartureTime>08:00:00</DepartureTime>
+								</TimetabledPassingTime>
+								<TimetabledPassingTime version="any" id="ch:1:TimetabledPassingTime:10:91YYY_.j21-1-0020102">
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 									<PointInJourneyPatternRef ref="ch:1:StopPointInJourneyPattern:91YYY_.j21-1-0020102:" version="any"/>
 									<ArrivalTime>08:15:00</ArrivalTime>
 									<DepartureTime>08:15:00</DepartureTime>
 								</TimetabledPassingTime>
+<<<<<<< HEAD
 								<TimetabledPassingTime version="any">
+=======
+								<TimetabledPassingTime version="any" id="ch:1:TimetabledPassingTime:10:91YYY_.j21-1-0020103">
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 									<PointInJourneyPatternRef ref="ch:1:StopPointInJourneyPattern:91YYY_.j21-1-0020103:" version="any"/>
 									<ArrivalTime>08:30:00</ArrivalTime>
 								</TimetabledPassingTime>
 							</passingTimes>
 						</ServiceJourney>
 						<ServiceJourney id="ch:1:ServiceJourney:91YYY-SBB-2-1-28800:TA:" version="1">
+<<<<<<< HEAD
 							<PrivateCode>2</PrivateCode>
 							<TypeOfProductCategoryRef ref="ch:1:TypeOfProductCategory:B:" version="any"/>
 							<TypeOfServiceRef ref="ch:1:TypeOfService:1:" version="any"/>
+=======
+							<privateCodes>
+								<PrivateCode>2</PrivateCode>
+							</privateCodes>
+							<TypeOfProductCategoryRef version="any" ref="ch:1:TypeOfProductCategory:B:"/>
+							<TypeOfServiceRef version="any" ref="ch:1:TypeOfService:1:"/>
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 							<DepartureTime>08:00:00</DepartureTime>
 							<dayTypes>
 								<DayTypeRef ref="ch:1:DayType:TA_1:" version="any"/>
@@ -2419,16 +2707,28 @@
 								<TrainNumberRef ref="ch:1:TrainNumber:20:" version="any"/>
 							</trainNumbers>
 							<passingTimes>
+<<<<<<< HEAD
 								<TimetabledPassingTime version="any">
 									<PointInJourneyPatternRef ref="ch:1:StopPointInJourneyPattern:91YYY_.j21-1-0030101:" version="any"/>
 									<DepartureTime>08:00:00</DepartureTime>
 								</TimetabledPassingTime>
 								<TimetabledPassingTime version="any">
+=======
+								<TimetabledPassingTime version="any" id="ch:1:TimetabledPassingTime:91YYY-SBB-2-1-28800:TA:91YYY_.j21-1-0030101">
+									<PointInJourneyPatternRef ref="ch:1:StopPointInJourneyPattern:91YYY_.j21-1-0030101:" version="any"/>
+									<DepartureTime>08:00:00</DepartureTime>
+								</TimetabledPassingTime>
+								<TimetabledPassingTime version="any" id="ch:1:TimetabledPassingTime:91YYY-SBB-2-1-28800:TA:91YYY_.j21-1-0030102">
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 									<PointInJourneyPatternRef ref="ch:1:StopPointInJourneyPattern:91YYY_.j21-1-0030102:" version="any"/>
 									<ArrivalTime>08:15:00</ArrivalTime>
 									<DepartureTime>08:15:00</DepartureTime>
 								</TimetabledPassingTime>
+<<<<<<< HEAD
 								<TimetabledPassingTime version="any">
+=======
+								<TimetabledPassingTime version="any" id="ch:1:TimetabledPassingTime:91YYY-SBB-2-1-28800:TA:91YYY_.j21-1-0030103">
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 									<PointInJourneyPatternRef ref="ch:1:StopPointInJourneyPattern:91YYY_.j21-1-0030103:" version="any"/>
 									<ArrivalTime>08:30:00</ArrivalTime>
 								</TimetabledPassingTime>
@@ -2445,6 +2745,7 @@
 					</trainNumbers>
 					<typesOfService>
 						<TypeOfService id="ch:1:TypeOfService:1:" version="any">
+<<<<<<< HEAD
 							<Name lang="de">PublicJourney</Name>
 							<ShortName lang="de">N</ShortName>
 							<PrivateCode>1</PrivateCode>
@@ -2460,6 +2761,40 @@
 							<PrivateCode>3</PrivateCode>
 						</TypeOfService>
 					</typesOfService>
+=======
+							<privateCodes>
+								<PrivateCode>1</PrivateCode>
+							</privateCodes>
+							<Name lang="de">PublicJourney</Name>
+							<ShortName lang="de">N</ShortName>
+						</TypeOfService>
+						<TypeOfService id="ch:1:TypeOfService:2:" version="any">
+							<privateCodes>
+								<PrivateCode>2</PrivateCode>
+							</privateCodes>
+							<Name lang="de">GarageRunOut</Name>
+							<ShortName lang="de">GO</ShortName>
+						</TypeOfService>
+						<TypeOfService id="ch:1:TypeOfService:3:" version="any">
+							<privateCodes>
+								<PrivateCode>3</PrivateCode>
+							</privateCodes>
+							<Name lang="de">GarageRunIn</Name>
+							<ShortName lang="de">GI</ShortName>
+						</TypeOfService>
+					</typesOfService>
+					<notices>
+						<Notice id="notice1" version="any">
+							<Text>Test notice on a PASSINGTIME</Text>
+						</Notice>
+					</notices>
+					<noticeAssignments>
+						<NoticeAssignment id="notice1" version="any" order="1">
+							<NoticeRef ref="notice1" version="any"/>
+							<NoticedObjectRef ref="ch:1:TimetabledPassingTime:10:91YYY_.j21-1-0020101" version="any"/>
+						</NoticeAssignment>
+					</noticeAssignments>
+>>>>>>> de021e83a02522cff4ed936408bf927f798aae0d
 				</TimetableFrame>
 			</frames>
 		</CompositeFrame>
